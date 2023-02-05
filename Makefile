@@ -59,6 +59,7 @@ qemu:
 		-M raspi3b	\
 		-nographic \
 		-m 1024M	\
+		-S -s \
 		-kernel kernel8.img		\
 
 all: build copy

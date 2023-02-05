@@ -23,8 +23,8 @@ int main (void) {
 
 extern void enable_irq (void);
     enable_irq ();
-
-    extern u64 _cpu_core_1_mailbox_poll_addr;
+   // while (1);
+   /* extern u64 _cpu_core_1_mailbox_poll_addr;
     extern u64 _cpu_core_2_mailbox_poll_addr;
     extern u64 _cpu_core_3_mailbox_poll_addr;
 
@@ -57,8 +57,8 @@ extern void enable_irq (void);
         }
     }
 
-    user_core_entry ();
-    
+    //user_core_entry ();
+    */
     return 0;
 }   
 

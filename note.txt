@@ -74,6 +74,22 @@ From EL2 to EL1
 SPSR_EL2
 
 ##############################################################
+# EL0 Swapping and exception
+##############################################################
+Each EL level has a set of status registers
+PSTATE register shows execution status of CPU
+
+Exception Enter
+Hardware enter EL1 and Hardware will access EL1 set of control registers
+1. PSTATE.mode bit before exception =  SPSR_EL1 
+2. Return address before exception
+
+Exception Exit = eret instruction
+1. SPSR_EL1 -> PSTATE
+2. ELR_ELn -> PC
+
+
+##############################################################
 # Linker
 ##############################################################
 Variable declare

@@ -138,11 +138,11 @@ curret_el_sp1_serror:
 
 .balign 0x80
 lower_el_aarch64_sync:
-    b generic_handler
+    b sync_handler
 
 .balign 0x80
 lower_el_aarch64_irq:
-    b generic_handler
+    b irq_handler
 
 .balign 0x80
 lower_el_aarch64_fiq:

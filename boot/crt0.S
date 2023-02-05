@@ -66,16 +66,27 @@ indirect_start_call:
 #endif
 
     ldr x0, =main
-    br x0
+    blr x0
 
 // Move to EL0 by generating synchronous exception
-move_to_el0:
-    mov x0, #0b1111000000
+    mov x0, #0b000000
     msr spsr_el1, x0 
-    adr x0, main
+    adr x0, el0_entry
     msr elr_el1, x0
     
+    ldr x0, =core_0_kernel_stack
+    msr SP_EL0, x0    
+ 
     eret 
+
+el0_entry:
+    wfi
+    //b el0_entry
+    //ldr x0, =main
+    //br x0
+1:
+    b 1b
+    
 
 halt_core:
     wfe
