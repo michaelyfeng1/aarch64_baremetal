@@ -1,0 +1,247 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/inc/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+BUF_SIZE	device.h	/^#define BUF_SIZE /;"	d
+CORE_CLOCK_SPEED	device.h	/^#define CORE_CLOCK_SPEED /;"	d
+CS_ADCS	device.h	/^#define CS_ADCS	/;"	d
+CS_CLEAR_RX	device.h	/^#define CS_CLEAR_RX	/;"	d
+CS_CLEAR_TX	device.h	/^#define CS_CLEAR_TX	/;"	d
+CS_CPHA__SHIFT	device.h	/^#define CS_CPHA__SHIFT	/;"	d
+CS_CPOL__SHIFT	device.h	/^#define CS_CPOL__SHIFT	/;"	d
+CS_CS	device.h	/^#define CS_CS	/;"	d
+CS_CSPOL	device.h	/^#define CS_CSPOL	/;"	d
+CS_CSPOL0	device.h	/^#define CS_CSPOL0	/;"	d
+CS_CSPOL1	device.h	/^#define CS_CSPOL1	/;"	d
+CS_CSPOL2	device.h	/^#define CS_CSPOL2	/;"	d
+CS_CS__SHIFT	device.h	/^#define CS_CS__SHIFT	/;"	d
+CS_DMAEN	device.h	/^#define CS_DMAEN	/;"	d
+CS_DMA_LEN	device.h	/^#define CS_DMA_LEN	/;"	d
+CS_DONE	device.h	/^#define CS_DONE	/;"	d
+CS_INTD	device.h	/^#define CS_INTD	/;"	d
+CS_INTR	device.h	/^#define CS_INTR	/;"	d
+CS_LEN	device.h	/^#define CS_LEN	/;"	d
+CS_LEN_LONG	device.h	/^#define CS_LEN_LONG	/;"	d
+CS_REN	device.h	/^#define CS_REN	/;"	d
+CS_RXD	device.h	/^#define CS_RXD	/;"	d
+CS_RXF	device.h	/^#define CS_RXF	/;"	d
+CS_RXR	device.h	/^#define CS_RXR	/;"	d
+CS_TA	device.h	/^#define CS_TA	/;"	d
+CS_TXD	device.h	/^#define CS_TXD	/;"	d
+C_CLEAR	device.h	/^#define C_CLEAR	/;"	d
+C_I2CEN	device.h	/^#define C_I2CEN	/;"	d
+C_INTD	device.h	/^#define C_INTD	/;"	d
+C_INTR	device.h	/^#define C_INTR	/;"	d
+C_INTT	device.h	/^#define C_INTT	/;"	d
+C_READ	device.h	/^#define C_READ	/;"	d
+C_ST	device.h	/^#define C_ST	/;"	d
+CoreInfo_t	device.h	/^} __attribute__ ((packed)) CoreInfo_t;$/;"	t	typeref:struct:_CoreInfo
+DEV_GPIO	device.h	/^    DEV_GPIO,$/;"	e	enum:DeviceType
+DEV_INTR	device.h	/^    DEV_INTR,$/;"	e	enum:DeviceType
+DEV_INVALID	device.h	/^    DEV_INVALID$/;"	e	enum:DeviceType
+DEV_SPI	device.h	/^    DEV_SPI,$/;"	e	enum:DeviceType
+DEV_TIMER	device.h	/^    DEV_TIMER,$/;"	e	enum:DeviceType
+DEV_UART	device.h	/^    DEV_UART,$/;"	e	enum:DeviceType
+DeviceType	device.h	/^enum DeviceType {$/;"	g
+GIC_REGS	device.h	/^#define GIC_REGS /;"	d
+GPIO_FUNC_ALT0	device.h	/^    GPIO_FUNC_ALT0 = 0b100,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT1	device.h	/^    GPIO_FUNC_ALT1 = 0b101,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT2	device.h	/^    GPIO_FUNC_ALT2 = 0b110,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT3	device.h	/^    GPIO_FUNC_ALT3 = 0b111,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT4	device.h	/^    GPIO_FUNC_ALT4 = 0b011,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT5	device.h	/^    GPIO_FUNC_ALT5 = 0b010,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_INPUT	device.h	/^    GPIO_FUNC_INPUT = 0b000,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_OUTPUT	device.h	/^    GPIO_FUNC_OUTPUT = 0b001,$/;"	e	enum:_GpioAltFunc
+GPIO_REGS	device.h	/^#define GPIO_REGS /;"	d
+Gic	device.h	/^typedef struct Gic$/;"	s
+GicDesc_t	device.h	/^}__attribute__ ((packed)) GicDesc_t;$/;"	t	typeref:struct:Gic
+Gpio	device.h	/^typedef struct Gpio {$/;"	s
+GpioAltFunc	device.h	/^}GpioAltFunc;$/;"	t	typeref:enum:_GpioAltFunc
+GpioDesc_t	device.h	/^} __attribute__ ((packed)) GpioDesc_t;$/;"	t	typeref:struct:Gpio
+GpioPinData	device.h	/^struct GpioPinData {$/;"	s
+HEAP_SIZE	mm.h	/^#define HEAP_SIZE /;"	d
+HeapSegment	mm.h	/^typedef struct HeapSegment {$/;"	s
+HeapSegment_t	mm.h	/^}HeapSegment_t;$/;"	t	typeref:struct:HeapSegment
+I2C_ACK_ERROR	device.h	/^    I2C_ACK_ERROR = 0x1,$/;"	e	enum:_i2c_status
+I2C_CLOCK_SPEED	device.h	/^#define I2C_CLOCK_SPEED /;"	d
+I2C_CLOCK_TIMEOUT	device.h	/^    I2C_CLOCK_TIMEOUT = 0x3$/;"	e	enum:_i2c_status
+I2C_DATA_LOSS	device.h	/^    I2C_DATA_LOSS = 0x2,$/;"	e	enum:_i2c_status
+I2C_REGS	device.h	/^#define I2C_REGS /;"	d
+I2C_SUCCESS	device.h	/^    I2C_SUCCESS = 0x0,$/;"	e	enum:_i2c_status
+I2cDesc_t	device.h	/^} __attribute__((packed)) I2cDesc_t;$/;"	t	typeref:struct:i2c
+INT_INVALID	interrupt.h	/^    INT_INVALID = 0x3$/;"	e	enum:_INT_TYPE
+INT_IRQ_ASYNC_EXCEPTION	interrupt.h	/^    INT_IRQ_ASYNC_EXCEPTION = 0x1,$/;"	e	enum:_INT_TYPE
+INT_SW_SYNC_EXCEPTION	interrupt.h	/^    INT_SW_SYNC_EXCEPTION = 0x2,$/;"	e	enum:_INT_TYPE
+INT_SW_SYSCALL	interrupt.h	/^    INT_SW_SYSCALL = 0x0,$/;"	e	enum:_INT_TYPE
+INT_TYPE	interrupt.h	/^}INT_TYPE;$/;"	t	typeref:enum:_INT_TYPE
+MemoryMetaData	mm.h	/^typedef struct MemoryMetaData{$/;"	s
+MemoryMetaData_t	mm.h	/^}MemoryMetaData_t;$/;"	t	typeref:struct:MemoryMetaData
+PAGE_ALIGN_DOWN_2M	mm.h	/^#define PAGE_ALIGN_DOWN_2M /;"	d
+PAGE_ALIGN_DOWN_4K	mm.h	/^#define PAGE_ALIGN_DOWN_4K /;"	d
+PAGE_ALIGN_UP_2M	mm.h	/^#define PAGE_ALIGN_UP_2M /;"	d
+PAGE_ALIGN_UP_4K	mm.h	/^#define PAGE_ALIGN_UP_4K /;"	d
+PAGE_SIZE_2M	mm.h	/^#define PAGE_SIZE_2M /;"	d
+PAGE_SIZE_4K	mm.h	/^#define PAGE_SIZE_4K /;"	d
+PA_UP	mm.h	/^#define PA_UP(/;"	d
+PPL_BASE_ADDR	device.h	/^#define PPL_BASE_ADDR /;"	d
+SPI_CHANNEL	device.h	/^#define SPI_CHANNEL /;"	d
+SPI_REGS	device.h	/^#define SPI_REGS /;"	d
+S_CLKT	device.h	/^#define S_CLKT	/;"	d
+S_DONE	device.h	/^#define S_DONE	/;"	d
+S_ERR	device.h	/^#define S_ERR	/;"	d
+S_RXD	device.h	/^#define S_RXD	/;"	d
+S_RXF	device.h	/^#define S_RXF	/;"	d
+S_RXR	device.h	/^#define S_RXR	/;"	d
+S_TA	device.h	/^#define S_TA	/;"	d
+S_TXD	device.h	/^#define S_TXD	/;"	d
+S_TXE	device.h	/^#define S_TXE	/;"	d
+S_TXW	device.h	/^#define S_TXW	/;"	d
+Spi	device.h	/^typedef struct Spi {$/;"	s
+SpiDesc_t	device.h	/^} __attribute__ ((packed)) SpiDesc_t;$/;"	t	typeref:struct:Spi
+TIMER_REGS	device.h	/^#define TIMER_REGS /;"	d
+Timer	device.h	/^typedef struct Timer {$/;"	s
+Timer_t	device.h	/^}__attribute__ ((packed))Timer_t;$/;"	t	typeref:struct:Timer
+TrapFrame	interrupt.h	/^typedef struct TrapFrame {$/;"	s
+TrapFrameDesc_t	interrupt.h	/^} __attribute__ ((packed)) TrapFrameDesc_t;$/;"	t	typeref:struct:TrapFrame
+UART_FIFO	device.h	/^    UART_FIFO,$/;"	e	enum:UartMode
+UART_INTERRUPT	device.h	/^    UART_INTERRUPT,$/;"	e	enum:UartMode
+UART_INVALID	device.h	/^    UART_INVALID$/;"	e	enum:UartMode
+UART_REGS	device.h	/^#define UART_REGS /;"	d
+Uart	device.h	/^typedef struct Uart {$/;"	s
+UartMode	device.h	/^enum UartMode {$/;"	g
+Uart_t	device.h	/^} __attribute__ ((packed)) Uart_t;$/;"	t	typeref:struct:Uart
+_CoreInfo	device.h	/^typedef struct _CoreInfo {$/;"	s
+_DEBUG_H_	debug.h	/^#define _DEBUG_H_$/;"	d
+_DEVICE_H_	device.h	/^#define _DEVICE_H_$/;"	d
+_GpioAltFunc	device.h	/^typedef enum _GpioAltFunc {$/;"	g
+_INTERRUPT_H_	interrupt.h	/^#define _INTERRUPT_H_$/;"	d
+_INT_TYPE	interrupt.h	/^typedef enum _INT_TYPE {$/;"	g
+_SMP_H_	smp.h	/^#define _SMP_H_$/;"	d
+_TYPES_H_	types.h	/^#define _TYPES_H_$/;"	d
+_UTILITY_H_	utility.h	/^#define _UTILITY_H_$/;"	d
+__CONFIG_H_	config.h	/^#define __CONFIG_H_$/;"	d
+__MM_H_	mm.h	/^#define __MM_H_$/;"	d
+_i2c_status	device.h	/^typedef enum _i2c_status {$/;"	g
+clk_div	device.h	/^    reg32 clk_div;$/;"	m	struct:i2c	typeref:typename:reg32
+clk_stretch_timeout	device.h	/^    reg32 clk_stretch_timeout;$/;"	m	struct:i2c	typeref:typename:reg32
+clock	device.h	/^    reg32 clock;$/;"	m	struct:Spi	typeref:typename:reg32
+control	device.h	/^    reg32 control;$/;"	m	struct:i2c	typeref:typename:reg32
+coreId	device.h	/^    u8 coreId;$/;"	m	struct:_CoreInfo	typeref:typename:u8
+coreSpeed	device.h	/^    u8 coreSpeed;$/;"	m	struct:_CoreInfo	typeref:typename:u8
+cs	device.h	/^    reg32 cs;$/;"	m	struct:Spi	typeref:typename:reg32
+data	device.h	/^    reg32 data[2];$/;"	m	struct:GpioPinData	typeref:typename:reg32[2]
+data_delay	device.h	/^    reg32 data_delay;$/;"	m	struct:i2c	typeref:typename:reg32
+data_fifo	device.h	/^    reg32 data_fifo;$/;"	m	struct:i2c	typeref:typename:reg32
+data_length	device.h	/^    reg32 data_length;$/;"	m	struct:Spi	typeref:typename:reg32
+data_length	device.h	/^    reg32 data_length;$/;"	m	struct:i2c	typeref:typename:reg32
+dc	device.h	/^    reg32 dc;$/;"	m	struct:Spi	typeref:typename:reg32
+elr	interrupt.h	/^    u64 elr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+esr	interrupt.h	/^    u64 esr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+fifo	device.h	/^    reg32 fifo;$/;"	m	struct:Spi	typeref:typename:reg32
+gp_async_fedge_detect	device.h	/^    struct GpioPinData gp_async_fedge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_async_redge_detect	device.h	/^    struct GpioPinData gp_async_redge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_event_detect	device.h	/^    struct GpioPinData gp_event_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_fedge_detect	device.h	/^    struct GpioPinData gp_fedge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_fselect	device.h	/^    reg32 gp_fselect[6];$/;"	m	struct:Gpio	typeref:typename:reg32[6]
+gp_high_detect	device.h	/^    struct GpioPinData gp_high_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_low_detect	device.h	/^    struct GpioPinData gp_low_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_output_clear	device.h	/^    struct GpioPinData gp_output_clear;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_output_set	device.h	/^    struct GpioPinData gp_output_set;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_pin_level	device.h	/^    struct GpioPinData gp_pin_level;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_redge_detect	device.h	/^    struct GpioPinData gp_redge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+heap_alloc_count	mm.h	/^    u64 heap_alloc_count;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_size	mm.h	/^    u64 heap_size;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+heap_size_in_bytes	mm.h	/^    u64 heap_size_in_bytes;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_start	mm.h	/^    u64 heap_start;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+heap_start_phy_addr	mm.h	/^    u64 heap_start_phy_addr;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_start_va_addr	mm.h	/^    u64 heap_start_va_addr;$/;"	m	struct:HeapSegment	typeref:typename:u64
+i2c	device.h	/^typedef struct i2c {$/;"	s
+i2c_status	device.h	/^}i2c_status;$/;"	t	typeref:enum:_i2c_status
+irq_disable_basic	device.h	/^    u32 irq_disable_basic;$/;"	m	struct:Gic	typeref:typename:u32
+irq_disable_reg1	device.h	/^    u32 irq_disable_reg1; \/\/irq 0 - 31$/;"	m	struct:Gic	typeref:typename:u32
+irq_disable_reg2	device.h	/^    u32 irq_disable_reg2; \/\/irq 32 - 63$/;"	m	struct:Gic	typeref:typename:u32
+irq_enable_basic	device.h	/^    u32 irq_enable_basic;$/;"	m	struct:Gic	typeref:typename:u32
+irq_enable_reg1	device.h	/^    u32 irq_enable_reg1;$/;"	m	struct:Gic	typeref:typename:u32
+irq_enable_reg2	device.h	/^    u32 irq_enable_reg2;$/;"	m	struct:Gic	typeref:typename:u32
+irq_pending	device.h	/^    u32 irq_pending;$/;"	m	struct:Gic	typeref:typename:u32
+kerne_size	mm.h	/^    u64 kerne_size;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+kernel_end	mm.h	/^    u64 kernel_end;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+kernel_start	mm.h	/^    u64 kernel_start;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+ltoh	device.h	/^    reg32 ltoh;$/;"	m	struct:Spi	typeref:typename:reg32
+mem_init	mm.h	/^    void (*mem_init) (void);$/;"	m	struct:MemoryMetaData	typeref:typename:void (*)(void)
+nullptr	types.h	/^#define nullptr /;"	d
+pCoreInfo	device.h	/^#define pCoreInfo /;"	d
+pupd_enable	device.h	/^    reg32 pupd_enable;$/;"	m	struct:Gpio	typeref:typename:reg32
+pupd_enable_clocks	device.h	/^    reg32 pupd_enable_clocks[2];$/;"	m	struct:Gpio	typeref:typename:reg32[2]
+reg32	types.h	/^typedef volatile u32  reg32;$/;"	t	typeref:typename:volatile u32
+reg64	types.h	/^typedef volatile u64  reg64;$/;"	t	typeref:typename:volatile u64
+reserved	device.h	/^    reg32 reserved;$/;"	m	struct:Gpio	typeref:typename:reg32
+reserved	device.h	/^    reg32 reserved;$/;"	m	struct:GpioPinData	typeref:typename:reg32
+reserved	device.h	/^    reg32 reserved[5];$/;"	m	struct:Uart	typeref:typename:reg32[5]
+reserved	device.h	/^    u32 reserved;$/;"	m	struct:Timer	typeref:typename:u32
+reserved	device.h	/^    u32 reserved[3];$/;"	m	struct:Gic	typeref:typename:u32[3]
+reserved1	device.h	/^    reg32 reserved1[2];  $/;"	m	struct:Uart	typeref:typename:reg32[2]
+reserved1	device.h	/^    u32 reserved1;$/;"	m	struct:Timer	typeref:typename:u32
+reserved2	device.h	/^    reg32 reserved2;$/;"	m	struct:Uart	typeref:typename:reg32
+reserved2	device.h	/^    u32 reserved2;$/;"	m	struct:Timer	typeref:typename:u32
+reserved3	device.h	/^    u16   reserved3;$/;"	m	struct:Uart	typeref:typename:u16
+slave_addr	device.h	/^    reg32 slave_addr;$/;"	m	struct:i2c	typeref:typename:reg32
+sp0	interrupt.h	/^    u64 sp0;$/;"	m	struct:TrapFrame	typeref:typename:u64
+spsr	interrupt.h	/^    u64 spsr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+status	device.h	/^    reg32 status;$/;"	m	struct:i2c	typeref:typename:reg32
+timer_ack	device.h	/^    u32 timer_ack;$/;"	m	struct:Timer	typeref:typename:u32
+timer_ctl	device.h	/^    u32 timer_ctl;$/;"	m	struct:Timer	typeref:typename:u32
+timer_load	device.h	/^    u32 timer_load;$/;"	m	struct:Timer	typeref:typename:u32
+timer_mskirq	device.h	/^    u32 timer_mskirq;$/;"	m	struct:Timer	typeref:typename:u32
+timer_prediv	device.h	/^    u32 timer_prediv;$/;"	m	struct:Timer	typeref:typename:u32
+trap_no	interrupt.h	/^    u64 trap_no;$/;"	m	struct:TrapFrame	typeref:typename:u64
+u0_cr	device.h	/^    reg32 u0_cr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_dr	device.h	/^    reg32 u0_dr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_fbrd	device.h	/^    reg32 u0_fbrd;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_fr	device.h	/^    reg32 u0_fr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_ibrd	device.h	/^    reg32 u0_ibrd;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_icr	device.h	/^    reg32 u0_icr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_imsc	device.h	/^    reg32 u0_imsc;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_lcrh	device.h	/^    reg32 u0_lcrh;$/;"	m	struct:Uart	typeref:typename:reg32
+u16	types.h	/^typedef unsigned short     u16;$/;"	t	typeref:typename:unsigned short
+u32	types.h	/^typedef unsigned int       u32;$/;"	t	typeref:typename:unsigned int
+u64	types.h	/^typedef unsigned long long u64;$/;"	t	typeref:typename:unsigned long long
+u8	types.h	/^typedef unsigned char      u8;$/;"	t	typeref:typename:unsigned char
+x0	interrupt.h	/^    u64 x0;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x1	interrupt.h	/^    u64 x1;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x10	interrupt.h	/^    u64 x10;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x11	interrupt.h	/^    u64 x11;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x12	interrupt.h	/^    u64 x12;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x13	interrupt.h	/^    u64 x13;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x14	interrupt.h	/^    u64 x14;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x15	interrupt.h	/^    u64 x15;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x16	interrupt.h	/^    u64 x16;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x17	interrupt.h	/^    u64 x17;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x18	interrupt.h	/^    u64 x18;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x19	interrupt.h	/^    u64 x19;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x2	interrupt.h	/^    u64 x2;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x20	interrupt.h	/^    u64 x20;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x21	interrupt.h	/^    u64 x21;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x22	interrupt.h	/^    u64 x22;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x23	interrupt.h	/^    u64 x23;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x24	interrupt.h	/^    u64 x24;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x25	interrupt.h	/^    u64 x25;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x26	interrupt.h	/^    u64 x26;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x27	interrupt.h	/^    u64 x27;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x28	interrupt.h	/^    u64 x28;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x29	interrupt.h	/^    u64 x29;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x3	interrupt.h	/^    u64 x3;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x30	interrupt.h	/^    u64 x30;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x4	interrupt.h	/^    u64 x4;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x5	interrupt.h	/^    u64 x5;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x6	interrupt.h	/^    u64 x6;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x7	interrupt.h	/^    u64 x7;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x8	interrupt.h	/^    u64 x8;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x9	interrupt.h	/^    u64 x9;$/;"	m	struct:TrapFrame	typeref:typename:u64

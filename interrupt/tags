@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/interrupt/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+EL0	irq.S	/^.equ EL0    , 0x0$/;"	d
+EL_MASK	irq.S	/^.equ EL_MASK, 0xF $/;"	d
+IRQ_ASYNC_EXCEPTION	irq.S	/^.equ IRQ_ASYNC_EXCEPTION, 0x01$/;"	d
+SW_SYNC_EXCEPTION	irq.S	/^.equ SW_SYNC_EXCEPTION, 0x10$/;"	d
+SYSCALL_SYNC_EXCEPTION	irq.S	/^.equ SYSCALL_SYNC_EXCEPTION, 0x00$/;"	d
+THREAD_HW_CONTEXT_SIZE	irq.S	/^.equ THREAD_HW_CONTEXT_SIZE, 288$/;"	d
+current_el_sp0_fiq	irq.S	/^current_el_sp0_fiq:$/;"	l
+current_el_sp0_serror	irq.S	/^current_el_sp0_serror:$/;"	l
+current_el_sp0_sync	irq.S	/^current_el_sp0_sync: \/\/system exception$/;"	l
+current_el_sp1_fiq	irq.S	/^current_el_sp1_fiq:$/;"	l
+current_el_sp1_irq	irq.S	/^current_el_sp1_irq:$/;"	l
+curret_el_sp0_irq	irq.S	/^curret_el_sp0_irq:$/;"	l
+curret_el_sp1_serror	irq.S	/^curret_el_sp1_serror:$/;"	l
+curret_el_sp1_sync	irq.S	/^curret_el_sp1_sync:$/;"	l
+enable_irq	irq.S	/^enable_irq:$/;"	l
+generic_handler	irq.S	/^generic_handler:$/;"	l
+handler_entry	irq.S	/^.macro handler_entry$/;"	m
+handler_exit	irq.S	/^.macro handler_exit$/;"	m
+interrupt_init	irq.S	/^interrupt_init:$/;"	l
+irq_handler	irq.S	/^irq_handler:$/;"	l
+isr_dispatcher	interrupt.c	/^void isr_dispatcher (TrapFrameDesc_t* pTf) {$/;"	f	typeref:typename:void
+ivt_table_start_addr	irq.S	/^ivt_table_start_addr:$/;"	l
+lower_el_aarch32_fiq	irq.S	/^lower_el_aarch32_fiq:$/;"	l
+lower_el_aarch32_irq	irq.S	/^lower_el_aarch32_irq:$/;"	l
+lower_el_aarch32_serror	irq.S	/^lower_el_aarch32_serror:$/;"	l
+lower_el_aarch32_sync	irq.S	/^lower_el_aarch32_sync:$/;"	l
+lower_el_aarch64_fiq	irq.S	/^lower_el_aarch64_fiq:$/;"	l
+lower_el_aarch64_irq	irq.S	/^lower_el_aarch64_irq:$/;"	l
+lower_el_aarch64_serror	irq.S	/^lower_el_aarch64_serror:$/;"	l
+lower_el_aarch64_sync	irq.S	/^lower_el_aarch64_sync:$/;"	l
+program_gic	interrupt.c	/^void program_gic (void) {$/;"	f	typeref:typename:void
+sync_handler	irq.S	/^sync_handler:$/;"	l
+trap_enter	irq.S	/^.macro trap_enter handler_sp_swap_skip $/;"	m
+trap_exit	irq.S	/^.macro trap_exit handler_sp_swap_skip $/;"	m

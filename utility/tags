@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/utility/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+__lock_acq_mem	utility.S	/^__lock_acq_mem:$/;"	l
+__lock_rel_mem	utility.S	/^__lock_rel_mem:$/;"	l
+decimal_to_string	print.c	/^static int decimal_to_string(char *buffer, int position, int64_t digits)$/;"	f	typeref:typename:int	file:
+delay	utility.S	/^delay:$/;"	l
+hex_to_string	print.c	/^static int hex_to_string(char *buffer, int position, uint64_t digits)$/;"	f	typeref:typename:int	file:
+in_word	utility.S	/^in_word:$/;"	l
+l1	utility.S	/^l1:	wfe$/;"	l
+l2	utility.S	/^l2:	ldaxr	w1, [x0]$/;"	l
+memclr	utility.S	/^memclr:$/;"	l
+memcpy	utility.S	/^memcpy:$/;"	l
+memset	utility.S	/^memset:$/;"	l
+out_word	utility.S	/^out_word:$/;"	l
+printk	print.c	/^int printk(const char *format, ...)$/;"	f	typeref:typename:int
+read_string	print.c	/^static int read_string(char *buffer, int position, const char *string)$/;"	f	typeref:typename:int	file:
+udecimal_to_string	print.c	/^static int udecimal_to_string(char *buffer, int position, uint64_t digits)$/;"	f	typeref:typename:int	file:
+write_console	print.c	/^void write_console(const char *buffer, int size)$/;"	f	typeref:typename:void

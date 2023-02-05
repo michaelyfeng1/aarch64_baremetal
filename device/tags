@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/device/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+devices_init	device.c	/^void devices_init (void) {$/;"	f	typeref:typename:void
+dump_timer	device.c	/^static void dump_timer (void) {$/;"	f	typeref:typename:void	file:
+dump_uart	device.c	/^static void dump_uart (void) {$/;"	f	typeref:typename:void	file:
+enable_irq_timer	timer_interface.S	/^enable_irq_timer:$/;"	l
+get_system_clk	timer_interface.S	/^get_system_clk:$/;"	l
+gpio_clear	gpio.c	/^void gpio_clear (u8 pinNum) {$/;"	f	typeref:typename:void
+gpio_pin_enable	gpio.c	/^void gpio_pin_enable(u8 pinNum) {$/;"	f	typeref:typename:void
+gpio_pin_func_select	gpio.c	/^void gpio_pin_func_select (u8 pinNum, GpioAltFunc pinFunc) {$/;"	f	typeref:typename:void
+gpio_set	gpio.c	/^void gpio_set (u8 pinNum) {$/;"	f	typeref:typename:void
+i2c_init	i2c.c	/^void i2c_init (void) {$/;"	f	typeref:typename:void
+i2c_recv	i2c.c	/^i2c_status i2c_recv (u64 addr, u8* pBuf, u64 size) {$/;"	f	typeref:typename:i2c_status
+i2c_send	i2c.c	/^i2c_status i2c_send (u64 addr, u8* pBuf, u64 size) {$/;"	f	typeref:typename:i2c_status
+register_dump	device.c	/^void register_dump (enum DeviceType type) {$/;"	f	typeref:typename:void
+set_timer_interval	timer_interface.S	/^set_timer_interval:$/;"	l
+spi_init	spi.c	/^void spi_init (void) {$/;"	f	typeref:typename:void
+timer_init	timer.c	/^void timer_init (void) {$/;"	f	typeref:typename:void
+timer_init_emu	timer.c	/^void timer_init_emu (void) {$/;"	f	typeref:typename:void
+timer_irq_handler	timer.c	/^void timer_irq_handler (void) {$/;"	f	typeref:typename:void
+uart_init	uart.c	/^void uart_init (enum UartMode uartMode) {$/;"	f	typeref:typename:void
+uart_irq_handler	uart.c	/^void uart_irq_handler (void) {$/;"	f	typeref:typename:void
+uart_read_data	uart.c	/^u8 uart_read_data () {$/;"	f	typeref:typename:u8
+uart_register_map_dump	uart.c	/^void uart_register_map_dump (void) {$/;"	f	typeref:typename:void
+uart_send_c	uart.c	/^void uart_send_c (u8 c) {$/;"	f	typeref:typename:void
+uart_send_data	uart.c	/^void uart_send_data (u8 c) {$/;"	f	typeref:typename:void
+uart_write_string	uart.c	/^void uart_write_string (char* str) {$/;"	f	typeref:typename:void

@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/core/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+aux_core_trap_to_el1	smt.S	/^.macro aux_core_trap_to_el1 core_id,call_stack_id,entry_id $/;"	m
+comm_core_entry	core1.c	/^void comm_core_entry (void) {$/;"	f	typeref:typename:void
+core_info	smt.S	/^core_info:$/;"	l
+func_core_aux_entry	core3.c	/^void func_core_aux_entry (void) {$/;"	f	typeref:typename:void
+func_core_entry	core2.c	/^void func_core_entry (void) {$/;"	f	typeref:typename:void
+i2cRecvBuf	core0.c	/^static u8 i2cRecvBuf[BUF_SIZE] = {0};$/;"	v	typeref:typename:u8[]	file:
+i2cSendBuf	core0.c	/^static u8 i2cSendBuf[BUF_SIZE] = {0};$/;"	v	typeref:typename:u8[]	file:
+jump_to_el1_core_one	smt.S	/^jump_to_el1_core_one:$/;"	l
+spiRecvBuf	core0.c	/^static u8 spiRecvBuf[BUF_SIZE] = {0};$/;"	v	typeref:typename:u8[]	file:
+spiSendBuf	core0.c	/^static u8 spiSendBuf[BUF_SIZE] = {0};$/;"	v	typeref:typename:u8[]	file:
+trap_core_1_to_el1	smt.S	/^trap_core_1_to_el1:$/;"	l
+trap_core_1_to_el1_from_el2	smt.S	/^trap_core_1_to_el1_from_el2:$/;"	l
+trap_core_2_to_el1	smt.S	/^trap_core_2_to_el1:$/;"	l
+trap_core_3_to_el1	smt.S	/^trap_core_3_to_el1:$/;"	l
+user_core_entry	core0.c	/^void user_core_entry() {$/;"	f	typeref:typename:void

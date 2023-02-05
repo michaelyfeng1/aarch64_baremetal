@@ -1,0 +1,113 @@
+##############################################################
+# Addressing Mode
+##############################################################
+adr and ldr
+ldr 
+-> ldr x0, =Symbol
+-> ldr x0, symbol
+adr
+-> adr x0, symbol
+
+ldr x0, =symbol has same effect of adr = load symbol address to registers
+Difference is adr is pc relative addressing and ldr is absoulte addressing
+
+##############################################################
+# Addressing Mode and Init Code
+##############################################################
+
+
+##############################################################
+# Exception Level
+##############################################################
+Four exception levels El3 - EL0 where el3 is the highest level
+
+EL2 - Hyperviosrs runs on for virtulizartion purposes
+EL1 - OS kernel usse
+EL0 - User lelve applications run on (unprivillege)
+
+-> Higher EL has access to all the registers of the lower level and not vice versa.
+E.g. Code running on EL2 is able to modify TTBR0_EL1 and TTRB1_EL1. In other words, EL2 can control Address
+translation on EL1 and EL0.
+-> Higher EL is able to configure trapping conditions on lower levels. If the conditions met, higher level
+will get notification in form of exception/interrupt.
+E.g. EL2 can configure trapping of access to TTBR0_EL1 and TTRB1_EL1 register so that read/write on these registers
+from EL1 or EL1 will trigger an exception on EL2.
+-> Higher level can be used to enable/disable features for lower level.
+-> Interrupt Handling
+
+
+EL Swaping
+Source = Interrupt/Exception and Return from Interrupt/Exception
+The two above sources can switch between EL.
+
+Higher EL decides interrupts are handled by themselve or lower level by setting registers. 
+If higher EL handle interrupts, CPU will be boosted to higher EL when there is an interrupt or
+exception. Returning from an interrupt is able to swtich from higher EL to lower EL.
+
+From High To Low (Especially for the first time)
+eret = return from interrupt
+E.g. eret at EL2
+PC = ELR_EL2
+State = SPSR_EL2
+SPSR_EL2 contains
+-> EL switch to
+
+suffix EL2 means it can be accessed through EL3 or EL2. Each Level except EL0 has one set of control registers
+ELR_EL3 or SPSR_EL3
+
+Excution State
+-> Stack: Each EL has a dedicated SP register SP_EL3 - SP_EL0. Hardware maps sp 
+to the corresponding stack register based on current EL 
+-> SPSR bit[3:0] to choose which stack to use
+E.g. From EL3 to EL2, SPSR_EL3[3:0] = 0b1000 to use SP_EL0 and = 0b1001 to use SP_EL2
+-> SPSR bit[9:6] to mask various interrupts
+
+From EL3 to EL2 1001
+SPSR_EL3  
+bit[3:2] stores previous/target EL
+bit[1] reserves 0
+bit[0] stores SP selection and copid to PSTATE.SP when eret.
+1 = select SP to current EL
+0 = slelect SP_EL0 as SP
+
+From EL2 to EL1
+SPSR_EL2
+
+##############################################################
+# Linker
+##############################################################
+Variable declare
+
+##############################################################
+# Debug
+##############################################################
+QEMU
+-S -s
+
+GDB Install
+gdb-multiarch *.elf
+
+GDB
+target remote localhost:1234
+
+b breakpoints
+info registers cpsr : read current EL
+
+
+
+##############################################################
+# Git Keychain
+##############################################################
+ssh
+
+cat .ssh/id_rsa.pub and copy content to github
+
+ssh-add ~/.ssh/id_rsa
+add following to ~/.ssh/config
+
+Host *
+  
+    IgnoreUnknown UseKeychain
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_rsa

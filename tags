@@ -1,0 +1,1027 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yuan/Desktop/projects/pi_baremetal/pi3/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+%.o	Makefile	/^%.o:%.S$/;"	t
+%.o	Makefile	/^%.o:%.c$/;"	t
+.bss	linker.ld	/^    .bss : {$/;"	S
+.data	linker.ld	/^    .data : {$/;"	S
+.text	linker.ld	/^    .text : {$/;"	S
+ASM_OBJ	Makefile	/^ASM_OBJ := $(patsubst %.S, %.o, $(ASM_SRC))$/;"	m
+ASM_SRC	Makefile	/^ASM_SRC := $(shell find . -name "*.S")$/;"	m
+BIN_DIR	Makefile	/^BIN_DIR = .\/bin$/;"	m
+BIN_FILE	Makefile	/^BIN_FILE = kernel8.img$/;"	m
+CASM	Makefile	/^CASM := aarch64-none-elf-as$/;"	m
+CC	Makefile	/^CC := aarch64-linux-gnu-gcc$/;"	m
+CFLAG	Makefile	/^CFLAG := -c -g -O0 -DRPI_VERSION=$(RPI_VERSION)\\$/;"	m
+CORE_0	selfTest/selftTest.c	/^    #define CORE_0 /;"	d	file:
+CORE_1	selfTest/selftTest.c	/^    #define CORE_1 /;"	d	file:
+CORE_2	selfTest/selftTest.c	/^    #define CORE_2 /;"	d	file:
+CORE_3	selfTest/selftTest.c	/^    #define CORE_3 /;"	d	file:
+CS_ADCS	inc/device.h	/^#define CS_ADCS	/;"	d
+CS_CLEAR_RX	inc/device.h	/^#define CS_CLEAR_RX	/;"	d
+CS_CLEAR_TX	inc/device.h	/^#define CS_CLEAR_TX	/;"	d
+CS_CPHA__SHIFT	inc/device.h	/^#define CS_CPHA__SHIFT	/;"	d
+CS_CPOL__SHIFT	inc/device.h	/^#define CS_CPOL__SHIFT	/;"	d
+CS_CS	inc/device.h	/^#define CS_CS	/;"	d
+CS_CSPOL	inc/device.h	/^#define CS_CSPOL	/;"	d
+CS_CSPOL0	inc/device.h	/^#define CS_CSPOL0	/;"	d
+CS_CSPOL1	inc/device.h	/^#define CS_CSPOL1	/;"	d
+CS_CSPOL2	inc/device.h	/^#define CS_CSPOL2	/;"	d
+CS_CS__SHIFT	inc/device.h	/^#define CS_CS__SHIFT	/;"	d
+CS_DMAEN	inc/device.h	/^#define CS_DMAEN	/;"	d
+CS_DMA_LEN	inc/device.h	/^#define CS_DMA_LEN	/;"	d
+CS_DONE	inc/device.h	/^#define CS_DONE	/;"	d
+CS_INTD	inc/device.h	/^#define CS_INTD	/;"	d
+CS_INTR	inc/device.h	/^#define CS_INTR	/;"	d
+CS_LEN	inc/device.h	/^#define CS_LEN	/;"	d
+CS_LEN_LONG	inc/device.h	/^#define CS_LEN_LONG	/;"	d
+CS_REN	inc/device.h	/^#define CS_REN	/;"	d
+CS_RXD	inc/device.h	/^#define CS_RXD	/;"	d
+CS_RXF	inc/device.h	/^#define CS_RXF	/;"	d
+CS_RXR	inc/device.h	/^#define CS_RXR	/;"	d
+CS_TA	inc/device.h	/^#define CS_TA	/;"	d
+CS_TXD	inc/device.h	/^#define CS_TXD	/;"	d
+C_OBJ	Makefile	/^C_OBJ := $(patsubst %.c, %.o, $(C_SRC))$/;"	m
+C_SRC	Makefile	/^C_SRC := $(shell find . -name "*.c") $/;"	m
+DEF_FILES	Makefile	/^DEF_FILES = $(C_OBJ:%.o=%.d)$/;"	m
+DEV_GPIO	inc/device.h	/^    DEV_GPIO,$/;"	e	enum:DeviceType
+DEV_INVALID	inc/device.h	/^    DEV_INVALID$/;"	e	enum:DeviceType
+DEV_SPI	inc/device.h	/^    DEV_SPI,$/;"	e	enum:DeviceType
+DEV_UART	inc/device.h	/^    DEV_UART,$/;"	e	enum:DeviceType
+DeviceType	inc/device.h	/^enum DeviceType {$/;"	g
+Disassembly	a.asm	/^Disassembly of section .bss:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .comment:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .data:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_abbrev:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_aranges:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_info:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_line:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_line_str:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_ranges:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_rnglists:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .debug_str:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .eh_frame:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .got.plt:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .got:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .rodata:$/;"	l
+Disassembly	a.asm	/^Disassembly of section .text:$/;"	l
+ELF_FILE	Makefile	/^ELF_FILE = kernel8.elf$/;"	m
+GPIO_FUNC_ALT0	inc/device.h	/^    GPIO_FUNC_ALT0 = 0b100,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT1	inc/device.h	/^    GPIO_FUNC_ALT1 = 0b101,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT2	inc/device.h	/^    GPIO_FUNC_ALT2 = 0b110,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT3	inc/device.h	/^    GPIO_FUNC_ALT3 = 0b111,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT4	inc/device.h	/^    GPIO_FUNC_ALT4 = 0b011,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_ALT5	inc/device.h	/^    GPIO_FUNC_ALT5 = 0b010,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_INPUT	inc/device.h	/^    GPIO_FUNC_INPUT = 0b000,$/;"	e	enum:_GpioAltFunc
+GPIO_FUNC_OUTPUT	inc/device.h	/^    GPIO_FUNC_OUTPUT = 0b001,$/;"	e	enum:_GpioAltFunc
+GPIO_REGS	inc/device.h	/^#define GPIO_REGS /;"	d
+Gpio	inc/device.h	/^typedef struct Gpio {$/;"	s
+GpioAltFunc	inc/device.h	/^}GpioAltFunc;$/;"	t	typeref:enum:_GpioAltFunc
+GpioDesc_t	inc/device.h	/^} __attribute__ ((packed)) GpioDesc_t;$/;"	t	typeref:struct:Gpio
+GpioPinData	inc/device.h	/^struct GpioPinData {$/;"	s
+HEAP_SIZE	inc/mm.h	/^#define HEAP_SIZE /;"	d
+Heap	mm/mm.c	/^static HeapSegment_t Heap = {0};$/;"	v	typeref:typename:HeapSegment_t	file:
+HeapSegment	inc/mm.h	/^typedef struct HeapSegment {$/;"	s
+HeapSegment_t	inc/mm.h	/^}HeapSegment_t;$/;"	t	typeref:struct:HeapSegment
+INCLUDES	Makefile	/^INCLUDES := -I .\/inc$/;"	m
+InputControlInfo	start.c	/^    typedef struct InputControlInfo {$/;"	s	function:entry	file:
+InputControlInfo_t	start.c	/^    }InputControlInfo_t; $/;"	t	function:entry	typeref:struct:entry::InputControlInfo	file:
+InterruptControllerDesc_t	inc/interrupt.h	/^} __attribute__ ((packed)) InterruptControllerDesc_t;$/;"	t	typeref:struct:IntrController
+IntrController	inc/interrupt.h	/^typedef struct IntrController {$/;"	s
+MemoryInfo	mm/mm.c	/^static MemoryMetaData_t MemoryInfo = {0};$/;"	v	typeref:typename:MemoryMetaData_t	file:
+MemoryMetaData	inc/mm.h	/^typedef struct MemoryMetaData{$/;"	s
+MemoryMetaData_t	inc/mm.h	/^}MemoryMetaData_t;$/;"	t	typeref:struct:MemoryMetaData
+MmCbArray	mm/mm_util.S	/^MmCbArray:$/;"	l
+OUTPUT_DIR	Makefile	/^OUTPUT_DIR = .\/obj$/;"	m
+PAGE_ALIGN_DOWN_2M	inc/mm.h	/^#define PAGE_ALIGN_DOWN_2M /;"	d
+PAGE_ALIGN_DOWN_4K	inc/mm.h	/^#define PAGE_ALIGN_DOWN_4K /;"	d
+PAGE_ALIGN_UP_2M	inc/mm.h	/^#define PAGE_ALIGN_UP_2M /;"	d
+PAGE_ALIGN_UP_4K	inc/mm.h	/^#define PAGE_ALIGN_UP_4K /;"	d
+PAGE_SIZE_2M	inc/mm.h	/^#define PAGE_SIZE_2M /;"	d
+PAGE_SIZE_4K	inc/mm.h	/^#define PAGE_SIZE_4K /;"	d
+PA_UP	inc/mm.h	/^#define PA_UP(/;"	d
+PPL_BASE_ADDR	inc/device.h	/^#define PPL_BASE_ADDR /;"	d
+PmBitMask	mm/mm_util.S	/^PmBitMask:$/;"	l
+RPI_VERSION	Makefile	/^RPI_VERSION ?= 3$/;"	m
+SPI_CHANNEL	inc/device.h	/^#define SPI_CHANNEL /;"	d
+SPI_REGS	inc/device.h	/^#define SPI_REGS /;"	d
+Spi	inc/device.h	/^typedef struct Spi {$/;"	s
+SpiDesc_t	inc/device.h	/^} __attribute__ ((packed)) SpiDesc_t;$/;"	t	typeref:struct:Spi
+THREAD_HW_CONTEXT_SIZE	interrupt/irq.S	/^.equ THREAD_HW_CONTEXT_SIZE, 288$/;"	d
+TRAP_ASYNC	inc/interrupt.h	/^    TRAP_ASYNC = 2,$/;"	e	enum:TrapType
+TRAP_SYNC	inc/interrupt.h	/^    TRAP_SYNC = 1,$/;"	e	enum:TrapType
+TRAP_SYS_CALL	inc/interrupt.h	/^    TRAP_SYS_CALL = 3,$/;"	e	enum:TrapType
+Test	boot/crt0.S	/^.equ Test,  ((3 << 28) | (3 << 22) | (1 << 20) | (1 << 11) | (1 << 2) | (1 << 12))$/;"	d
+TrapFrame	inc/interrupt.h	/^typedef struct TrapFrame {$/;"	s
+TrapFrameDesc_t	inc/interrupt.h	/^} __attribute__ ((packed)) TrapFrameDesc_t;$/;"	t	typeref:struct:TrapFrame
+TrapType	inc/interrupt.h	/^enum TrapType {$/;"	g
+UART_FIFO	inc/device.h	/^    UART_FIFO,$/;"	e	enum:UartMode
+UART_INTERRUPT	inc/device.h	/^    UART_INTERRUPT,$/;"	e	enum:UartMode
+UART_INVALID	inc/device.h	/^    UART_INVALID$/;"	e	enum:UartMode
+UART_REGS	inc/device.h	/^#define UART_REGS /;"	d
+Uart	inc/device.h	/^typedef struct Uart {$/;"	s
+UartMode	inc/device.h	/^enum UartMode {$/;"	g
+Uart_t	inc/device.h	/^} __attribute__ ((packed)) Uart_t;$/;"	t	typeref:struct:Uart
+_DEBUG_H_	inc/debug.h	/^#define _DEBUG_H_$/;"	d
+_DEVICE_H_	inc/device.h	/^#define _DEVICE_H_$/;"	d
+_GpioAltFunc	inc/device.h	/^typedef enum _GpioAltFunc {$/;"	g
+_INTERRUPT_H_	inc/interrupt.h	/^#define _INTERRUPT_H_$/;"	d
+_SMP_H_	inc/smp.h	/^#define _SMP_H_$/;"	d
+_TYPES_H_	inc/types.h	/^#define _TYPES_H_$/;"	d
+_UTILITY_H_	inc/utility.h	/^#define _UTILITY_H_$/;"	d
+__CONFIG_H_	inc/config.h	/^#define __CONFIG_H_$/;"	d
+__MM_H_	inc/mm.h	/^#define __MM_H_$/;"	d
+__kernel_end_addr	linker.ld	/^    __kernel_end_addr = .;$/;"	s
+__kernel_start_addr	linker.ld	/^    __kernel_start_addr = .;$/;"	s
+__lock_acq_mem	utility/utility.S	/^__lock_acq_mem:$/;"	l
+__lock_rel_mem	utility/utility.S	/^__lock_rel_mem:$/;"	l
+_bss_end	linker.ld	/^        _bss_end = .;$/;"	s	section:.bss
+_bss_start	linker.ld	/^        _bss_start = .;$/;"	s	section:.bss
+_cpu_core_1_mailbox_poll_addr	linker.ld	/^    _cpu_core_1_mailbox_poll_addr = .;$/;"	s
+_cpu_core_2_mailbox_poll_addr	linker.ld	/^    _cpu_core_2_mailbox_poll_addr = .;$/;"	s
+_cpu_core_3_mailbox_poll_addr	linker.ld	/^    _cpu_core_3_mailbox_poll_addr = .;$/;"	s
+_get_pt_el0	mm/mm_util.S	/^_get_pt_el0:$/;"	l
+_get_pt_el1	mm/mm_util.S	/^_get_pt_el1:$/;"	l
+_start	boot/crt0.S	/^_start:$/;"	l
+a0	a.asm	/^      a0:	00050000 	.inst	0x00050000 ; undefined$/;"	l
+a0	a.asm	/^  a0:	00004201 	udf	#16897$/;"	l
+a0	a.asm	/^  a0:	00080000 	.inst	0x00080000 ; undefined$/;"	l
+a0	a.asm	/^  a0:	06000013 	.inst	0x06000013 ; undefined$/;"	l
+a0	a.asm	/^  a0:	6765722d 	.inst	0x6765722d ; undefined$/;"	l
+a0	a.asm	/^  a0:	726f632f 	.inst	0x726f632f ; undefined$/;"	l
+a00	a.asm	/^     a00:	08020000 	stxrb	w2, w0, [x0]$/;"	l
+a00	a.asm	/^ a00:	0101000d 	.inst	0x0101000d ; undefined$/;"	l
+a00	a.asm	/^ a00:	40071201 	.inst	0x40071201 ; undefined$/;"	l
+a04	a.asm	/^     a04:	00016307 	.inst	0x00016307 ; undefined$/;"	l
+a04	a.asm	/^ a04:	00000101 	udf	#257$/;"	l
+a04	a.asm	/^ a04:	00197a18 	.inst	0x00197a18 ; undefined$/;"	l
+a08	a.asm	/^     a08:	05c80500 	.inst	0x05c80500 ; undefined$/;"	l
+a08	a.asm	/^ a08:	00000100 	udf	#256$/;"	l
+a08	a.asm	/^ a08:	11010000 	add	w0, w0, #0x40$/;"	l
+a0c	a.asm	/^     a0c:	11300000 	add	w0, w0, #0xc00$/;"	l
+a0c	a.asm	/^ a0c:	130e2501 	sbfiz	w1, w8, #18, #10$/;"	l
+a0c	a.asm	/^ a0c:	1f010101 	fmadd	s1, s8, s1, s0$/;"	l
+a10	a.asm	/^     a10:	000000aa 	udf	#170$/;"	l
+a10	a.asm	/^ a10:	00000003 	udf	#3$/;"	l
+a10	a.asm	/^ a10:	1b0e030b 	madd	w11, w24, w14, w0$/;"	l
+a14	a.asm	/^     a14:	00051b01 	.inst	0x00051b01 ; undefined$/;"	l
+a14	a.asm	/^ a14:	00018700 	.inst	0x00018700 ; undefined$/;"	l
+a14	a.asm	/^ a14:	1117550e 	add	w14, w8, #0x5d5$/;"	l
+a18	a.asm	/^     a18:	43091200 	.inst	0x43091200 ; undefined$/;"	l
+a18	a.asm	/^ a18:	00008000 	udf	#32768$/;"	l
+a18	a.asm	/^ a18:	00171001 	.inst	0x00171001 ; undefined$/;"	l
+a1c	a.asm	/^     a1c:	00000000 	udf	#0$/;"	l
+a1c	a.asm	/^ a1c:	012e0200 	.inst	0x012e0200 ; undefined$/;"	l
+a1c	a.asm	/^ a1c:	1f010200 	fmadd	s0, s16, s1, s0$/;"	l
+a20	a.asm	/^     a20:	0004cd01 	.inst	0x0004cd01 ; undefined$/;"	l
+a20	a.asm	/^ a20:	0e03193f 	uzp1	v31.8b, v9.8b, v3.8b$/;"	l
+a20	a.asm	/^ a20:	95050f02 	bl	4144628 <__kernel_end_addr+0x40b65d0>$/;"	l
+a24	a.asm	/^     a24:	43091300 	.inst	0x43091300 ; undefined$/;"	l
+a24	a.asm	/^ a24:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+a24	a.asm	/^ a24:	0b3b0b3a 	add	w26, w25, w27, uxtb #2$/;"	l
+a28	a.asm	/^     a28:	08000000 	stxrb	w0, w0, [x0]$/;"	l
+a28	a.asm	/^ a28:	00000195 	udf	#405$/;"	l
+a28	a.asm	/^ a28:	19270b39 	.inst	0x19270b39 ; undefined$/;"	l
+a2c	a.asm	/^     a2c:	00051001 	.inst	0x00051001 ; undefined$/;"	l
+a2c	a.asm	/^ a2c:	0000bf01 	udf	#48897$/;"	l
+a2c	a.asm	/^ a2c:	01111349 	.inst	0x01111349 ; undefined$/;"	l
+a30	a.asm	/^     a30:	43091400 	.inst	0x43091400 ; undefined$/;"	l
+a30	a.asm	/^ a30:	00860200 	.inst	0x00860200 ; undefined$/;"	l
+a30	a.asm	/^ a30:	18400712 	ldr	w18, 80b10 <interrupt_init+0x310>$/;"	l
+a34	a.asm	/^     a34:	10000000 	adr	x0, a34 <THREAD_HW_CONTEXT_SIZE+0x914>$/;"	l
+a34	a.asm	/^ a34:	01194296 	.inst	0x01194296 ; undefined$/;"	l
+a34	a.asm	/^ a34:	9e020000 	scvtf	s0, x0, #64$/;"	l
+a38	a.asm	/^     a38:	00056e01 	.inst	0x00056e01 ; undefined$/;"	l
+a38	a.asm	/^ a38:	02000001 	.inst	0x02000001 ; undefined$/;"	l
+a38	a.asm	/^ a38:	03000013 	.inst	0x03000013 ; undefined$/;"	l
+a3c	a.asm	/^     a3c:	43091500 	.inst	0x43091500 ; undefined$/;"	l
+a3c	a.asm	/^ a3c:	09001e05 	.inst	0x09001e05 ; undefined$/;"	l
+a3c	a.asm	/^ a3c:	0e030034 	tbl	v20.8b, {v1.16b}, v3.8b$/;"	l
+a4	a.asm	/^      a4:	004e0801 	.inst	0x004e0801 ; undefined$/;"	l
+a4	a.asm	/^  a4:	00000000 	udf	#0$/;"	l
+a4	a.asm	/^  a4:	09000100 	.inst	0x09000100 ; undefined$/;"	l
+a4	a.asm	/^  a4:	193f002e 	.inst	0x193f002e ; undefined$/;"	l
+a4	a.asm	/^  a4:	632e3165 	.inst	0x632e3165 ; undefined$/;"	l
+a4	a.asm	/^  a4:	6e6f2d73 	uqsub	v19.8h, v11.8h, v15.8h$/;"	l
+a40	a.asm	/^     a40:	18000000 	ldr	w0, a40 <THREAD_HW_CONTEXT_SIZE+0x920>$/;"	l
+a40	a.asm	/^ a40:	0823d402 	.inst	0x0823d402 ; undefined$/;"	l
+a40	a.asm	/^ a40:	0b3b0b3a 	add	w26, w25, w27, uxtb #2$/;"	l
+a44	a.asm	/^     a44:	00054501 	.inst	0x00054501 ; undefined$/;"	l
+a44	a.asm	/^ a44:	00000000 	udf	#0$/;"	l
+a44	a.asm	/^ a44:	13490b39 	.inst	0x13490b39 ; undefined$/;"	l
+a48	a.asm	/^     a48:	43091600 	.inst	0x43091600 ; undefined$/;"	l
+a48	a.asm	/^ a48:	00001802 	udf	#6146$/;"	l
+a48	a.asm	/^ a48:	05051600 	.inst	0x05051600 ; undefined$/;"	l
+a4c	a.asm	/^     a4c:	20000000 	.inst	0x20000000 ; undefined$/;"	l
+a4c	a.asm	/^ a4c:	03001604 	.inst	0x03001604 ; undefined$/;"	l
+a4c	a.asm	/^ a4c:	59593d30 	.inst	0x59593d30 ; undefined$/;"	l
+a50	a.asm	/^     a50:	00053c01 	.inst	0x00053c01 ; undefined$/;"	l
+a50	a.asm	/^ a50:	3b0b3a08 	.inst	0x3b0b3a08 ; undefined$/;"	l
+a50	a.asm	/^ a50:	59595959 	.inst	0x59595959 ; undefined$/;"	l
+a54	a.asm	/^     a54:	ab0c1800 	adds	x0, x0, x12, lsl #6$/;"	l
+a54	a.asm	/^ a54:	3e010559 	.inst	0x3e010559 ; undefined$/;"	l
+a54	a.asm	/^ a54:	490b390b 	.inst	0x490b390b ; undefined$/;"	l
+a58	a.asm	/^     a58:	28000000 	stnp	w0, w0, [x0]$/;"	l
+a58	a.asm	/^ a58:	05000013 	orr	z19.s, z19.s, #0x1$/;"	l
+a58	a.asm	/^ a58:	053e2b05 	tbl	z5.b, {z24.b, z25.b}, z30.b$/;"	l
+a5c	a.asm	/^     a5c:	aa060b00 	orr	x0, x24, x6, lsl #2$/;"	l
+a5c	a.asm	/^ a5c:	0d053d05 	.inst	0x0d053d05 ; undefined$/;"	l
+a5c	a.asm	/^ a5c:	0e030113 	tbl	v19.8b, {v8.16b}, v3.8b$/;"	l
+a60	a.asm	/^     a60:	07000000 	.inst	0x07000000 ; undefined$/;"	l
+a60	a.asm	/^ a60:	05ba0b03 	uzp1	z3.q, z24.q, z26.q$/;"	l
+a60	a.asm	/^ a60:	0b3a0b0b 	add	w11, w24, w26, uxtb #2$/;"	l
+a64	a.asm	/^     a64:	000004ff 	udf	#1279$/;"	l
+a64	a.asm	/^ a64:	0b390b3b 	add	w27, w25, w25, uxtb #2$/;"	l
+a64	a.asm	/^ a64:	20780311 	.inst	0x20780311 ; undefined$/;"	l
+a68	a.asm	/^     a68:	00005619 	udf	#22041$/;"	l
+a68	a.asm	/^ a68:	00001301 	udf	#4865$/;"	l
+a68	a.asm	/^ a68:	24220d05 	cmphs	p5.b, p3\/z, z8.b, #8$/;"	l
+a6c	a.asm	/^     a6c:	05b10500 	zip2	z0.q, z8.q, z17.q$/;"	l
+a6c	a.asm	/^ a6c:	01052a30 	.inst	0x01052a30 ; undefined$/;"	l
+a6c	a.asm	/^ a6c:	03000d06 	.inst	0x03000d06 ; undefined$/;"	l
+a70	a.asm	/^     a70:	1b200000 	.inst	0x1b200000 ; undefined$/;"	l
+a70	a.asm	/^ a70:	00030226 	.inst	0x00030226 ; undefined$/;"	l
+a70	a.asm	/^ a70:	3b0b3a0e 	.inst	0x3b0b3a0e ; undefined$/;"	l
+a74	a.asm	/^     a74:	000000f6 	udf	#246$/;"	l
+a74	a.asm	/^ a74:	00dc0101 	.inst	0x00dc0101 ; undefined$/;"	l
+a74	a.asm	/^ a74:	490b390b 	.inst	0x490b390b ; undefined$/;"	l
+a78	a.asm	/^     a78:	00055b01 	.inst	0x00055b01 ; undefined$/;"	l
+a78	a.asm	/^ a78:	00050000 	.inst	0x00050000 ; undefined$/;"	l
+a78	a.asm	/^ a78:	000b3813 	.inst	0x000b3813 ; undefined$/;"	l
+a7c	a.asm	/^     a7c:	43091c00 	.inst	0x43091c00 ; undefined$/;"	l
+a7c	a.asm	/^ a7c:	00160700 	.inst	0x00160700 ; undefined$/;"	l
+a7c	a.asm	/^ a7c:	00410008 	.inst	0x00410008 ; undefined$/;"	l
+a8	a.asm	/^      a8:	0f010000 	.inst	0x0f010000 ; undefined$/;"	l
+a8	a.asm	/^  a8:	000000b8 	udf	#184$/;"	l
+a8	a.asm	/^  a8:	08080002 	stxrb	w8, w2, [x0]$/;"	l
+a8	a.asm	/^  a8:	0b3a0e03 	add	w3, w16, w26, uxtb #3$/;"	l
+a8	a.asm	/^  a8:	2d20796c 	stp	s12, s30, [x11, #-256]$/;"	l
+a8	a.asm	/^  a8:	746e6900 	.inst	0x746e6900 ; undefined$/;"	l
+a80	a.asm	/^     a80:	00000000 	udf	#0$/;"	l
+a80	a.asm	/^ a80:	01040000 	.inst	0x01040000 ; undefined$/;"	l
+a80	a.asm	/^ a80:	0b3a0e03 	add	w3, w16, w26, uxtb #3$/;"	l
+a84	a.asm	/^     a84:	00052801 	.inst	0x00052801 ; undefined$/;"	l
+a84	a.asm	/^ a84:	0b390b3b 	add	w27, w25, w25, uxtb #2$/;"	l
+a84	a.asm	/^ a84:	0d0efb01 	.inst	0x0d0efb01 ; undefined$/;"	l
+a88	a.asm	/^     a88:	43091d00 	.inst	0x43091d00 ; undefined$/;"	l
+a88	a.asm	/^ a88:	00001349 	udf	#4937$/;"	l
+a88	a.asm	/^ a88:	01010100 	.inst	0x01010100 ; undefined$/;"	l
+a8c	a.asm	/^     a8c:	08000000 	stxrb	w0, w0, [x0]$/;"	l
+a8c	a.asm	/^ a8c:	00000001 	udf	#1$/;"	l
+a8c	a.asm	/^ a8c:	0b002408 	add	w8, w0, w0, lsl #9$/;"	l
+a90	a.asm	/^     a90:	0005dd01 	.inst	0x0005dd01 ; undefined$/;"	l
+a90	a.asm	/^ a90:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+a90	a.asm	/^ a90:	030b3e0b 	.inst	0x030b3e0b ; undefined$/;"	l
+a94	a.asm	/^     a94:	43091e00 	.inst	0x43091e00 ; undefined$/;"	l
+a94	a.asm	/^ a94:	031f0101 	.inst	0x031f0101 ; undefined$/;"	l
+a94	a.asm	/^ a94:	09000008 	.inst	0x09000008 ; undefined$/;"	l
+a98	a.asm	/^     a98:	10000000 	adr	x0, a98 <THREAD_HW_CONTEXT_SIZE+0x978>$/;"	l
+a98	a.asm	/^ a98:	00000000 	udf	#0$/;"	l
+a98	a.asm	/^ a98:	0b0b0024 	add	w4, w1, w11$/;"	l
+a9c	a.asm	/^     a9c:	0004d801 	.inst	0x0004d801 ; undefined$/;"	l
+a9c	a.asm	/^ a9c:	00000187 	udf	#391$/;"	l
+a9c	a.asm	/^ a9c:	0e030b3e 	.inst	0x0e030b3e ; undefined$/;"	l
+aa0	a.asm	/^     aa0:	43091f00 	.inst	0x43091f00 ; undefined$/;"	l
+aa0	a.asm	/^ aa0:	00000080 	udf	#128$/;"	l
+aa0	a.asm	/^ aa0:	Address 0x0000000000000aa0 is out of bounds.$/;"	l
+aa4	a.asm	/^     aa4:	18000000 	ldr	w0, aa4 <THREAD_HW_CONTEXT_SIZE+0x984>$/;"	l
+aa4	a.asm	/^ aa4:	021f0102 	.inst	0x021f0102 ; undefined$/;"	l
+aa8	a.asm	/^     aa8:	05810700 	and	z0.b, z0.b, #0x11$/;"	l
+aa8	a.asm	/^ aa8:	01ad050f 	.inst	0x01ad050f ; undefined$/;"	l
+aac	a.asm	/^     aac:	ba200000 	.inst	0xba200000 ; undefined$/;"	l
+aac	a.asm	/^ aac:	ad010000 	stp	q0, q0, [x0, #32]$/;"	l
+ab0	a.asm	/^     ab0:	03000000 	.inst	0x03000000 ; undefined$/;"	l
+ab0	a.asm	/^ ab0:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+ab4	a.asm	/^     ab4:	000005bd 	udf	#1469$/;"	l
+ab4	a.asm	/^ ab4:	000000bf 	udf	#191$/;"	l
+ab8	a.asm	/^     ab8:	00b01904 	.inst	0x00b01904 ; undefined$/;"	l
+ab8	a.asm	/^ ab8:	00008602 	udf	#34306$/;"	l
+abc	a.asm	/^     abc:	03090000 	.inst	0x03090000 ; undefined$/;"	l
+abc	a.asm	/^ abc:	01430200 	.inst	0x01430200 ; undefined$/;"	l
+ac	a.asm	/^      ac:	2f000002 	.inst	0x2f000002 ; undefined$/;"	l
+ac	a.asm	/^  ac:	00000000 	udf	#0$/;"	l
+ac	a.asm	/^  ac:	0b390b3b 	add	w27, w25, w25, uxtb #2$/;"	l
+ac	a.asm	/^  ac:	74696c6d 	.inst	0x74696c6d ; undefined$/;"	l
+ac	a.asm	/^  ac:	75727265 	.inst	0x75727265 ; undefined$/;"	l
+ac0	a.asm	/^     ac0:	0008e008 	.inst	0x0008e008 ; undefined$/;"	l
+ac0	a.asm	/^ ac0:	05020000 	orr	z0.d, z0.d, #0x1$/;"	l
+ac4	a.asm	/^     ac4:	00000000 	udf	#0$/;"	l
+ac4	a.asm	/^ ac4:	0209003c 	.inst	0x0209003c ; undefined$/;"	l
+ac8	a.asm	/^     ac8:	0004c803 	.inst	0x0004c803 ; undefined$/;"	l
+ac8	a.asm	/^ ac8:	000824f4 	.inst	0x000824f4 ; undefined$/;"	l
+acc	a.asm	/^     acc:	f6160500 	.inst	0xf6160500 ; undefined$/;"	l
+acc	a.asm	/^ acc:	00000000 	udf	#0$/;"	l
+ad0	a.asm	/^     ad0:	09000000 	.inst	0x09000000 ; undefined$/;"	l
+ad0	a.asm	/^ ad0:	3e1c0516 	.inst	0x3e1c0516 ; undefined$/;"	l
+ad4	a.asm	/^     ad4:	08e03803 	.inst	0x08e03803 ; undefined$/;"	l
+ad4	a.asm	/^ ad4:	054a2005 	.inst	0x054a2005 ; undefined$/;"	l
+ad8	a.asm	/^     ad8:	00000000 	udf	#0$/;"	l
+ad8	a.asm	/^ ad8:	052fc808 	sel	z8.b, p2, z0.b, z15.b$/;"	l
+adc	a.asm	/^     adc:	04e90c00 	.inst	0x04e90c00 ; undefined$/;"	l
+adc	a.asm	/^ adc:	2905761d 	stp	w29, w29, [x16, #40]$/;"	l
+ae0	a.asm	/^     ae0:	22010000 	.inst	0x22010000 ; undefined$/;"	l
+ae0	a.asm	/^ ae0:	20090520 	.inst	0x20090520 ; undefined$/;"	l
+ae4	a.asm	/^     ae4:	08216406 	.inst	0x08216406 ; undefined$/;"	l
+ae4	a.asm	/^ ae4:	053d1505 	ext	z5.b, z5.b, z8.b, #237$/;"	l
+ae8	a.asm	/^     ae8:	00000000 	udf	#0$/;"	l
+ae8	a.asm	/^ ae8:	0e053c11 	umov	w17, v0.b[2]$/;"	l
+aec	a.asm	/^     aec:	00007400 	udf	#29696$/;"	l
+aec	a.asm	/^ aec:	3d1a052e 	str	b14, [x9, #1665]$/;"	l
+af0	a.asm	/^     af0:	00000000 	udf	#0$/;"	l
+af0	a.asm	/^ af0:	3e3c0e05 	.inst	0x3e3c0e05 ; undefined$/;"	l
+af4	a.asm	/^     af4:	589c0100 	ldr	x0, fffffffffff38b14 <Test+0xffffffffcf237310>$/;"	l
+af4	a.asm	/^ af4:	05201a05 	ext	z5.b, z5.b, z16.b, #6$/;"	l
+af8	a.asm	/^     af8:	0d000001 	st1	{v1.b}[0], [x0]$/;"	l
+af8	a.asm	/^ af8:	01052026 	.inst	0x01052026 ; undefined$/;"	l
+afc	a.asm	/^     afc:	000005d7 	udf	#1495$/;"	l
+afc	a.asm	/^ afc:	3e21053d 	.inst	0x3e21053d ; undefined$/;"	l
+all	Makefile	/^all: build copy$/;"	t
+aux_core_trap_to_el1	core/smt.S	/^.macro aux_core_trap_to_el1 core_id,call_stack_id,entry_id $/;"	m
+b0	a.asm	/^      b0:	72000000 	ands	w0, w0, #0x1$/;"	l
+b0	a.asm	/^  b0:	000817f8 	.inst	0x000817f8 ; undefined$/;"	l
+b0	a.asm	/^  b0:	01111927 	.inst	0x01111927 ; undefined$/;"	l
+b0	a.asm	/^  b0:	21211700 	.inst	0x21211700 ; undefined$/;"	l
+b0	a.asm	/^  b0:	2d656c74 	ldp	s20, s27, [x3, #-216]$/;"	l
+b0	a.asm	/^  b0:	692f7470 	stgp	x16, x29, [x3, #-544]$/;"	l
+b00	a.asm	/^     b00:	582e2201 	ldr	x1, 5cf40 <THREAD_HW_CONTEXT_SIZE+0x5ce20>$/;"	l
+b00	a.asm	/^ b00:	053d0e05 	ext	z5.b, z5.b, z16.b, #235$/;"	l
+b04	a.asm	/^     b04:	02000001 	.inst	0x02000001 ; undefined$/;"	l
+b04	a.asm	/^ b04:	0505201c 	.inst	0x0505201c ; undefined$/;"	l
+b08	a.asm	/^     b08:	06007891 	.inst	0x06007891 ; undefined$/;"	l
+b08	a.asm	/^ b08:	303f0521 	adr	x1, 7ebad <THREAD_HW_CONTEXT_SIZE+0x7ea8d>$/;"	l
+b0c	a.asm	/^     b0c:	000000b0 	udf	#176$/;"	l
+b0c	a.asm	/^ b0c:	052e3405 	.inst	0x052e3405 ; undefined$/;"	l
+b10	a.asm	/^     b10:	0005a90e 	.inst	0x0005a90e ; undefined$/;"	l
+b10	a.asm	/^ b10:	2a052e0e 	orr	w14, w16, w5, lsl #11$/;"	l
+b14	a.asm	/^     b14:	06130100 	.inst	0x06130100 ; undefined$/;"	l
+b14	a.asm	/^ b14:	3c300520 	.inst	0x3c300520 ; undefined$/;"	l
+b18	a.asm	/^     b18:	000820d4 	.inst	0x000820d4 ; undefined$/;"	l
+b18	a.asm	/^ b18:	05590505 	mov	z5.h, p9\/z, #40$/;"	l
+b1c	a.asm	/^     b1c:	00000000 	udf	#0$/;"	l
+b1c	a.asm	/^ b1c:	1c05300e 	ldr	s14, b11c <THREAD_HW_CONTEXT_SIZE+0xaffc>$/;"	l
+b20	a.asm	/^     b20:	00000090 	udf	#144$/;"	l
+b20	a.asm	/^ b20:	210e0520 	.inst	0x210e0520 ; undefined$/;"	l
+b24	a.asm	/^     b24:	00000000 	udf	#0$/;"	l
+b24	a.asm	/^ b24:	05202a05 	tbl	z5.b, {z16.b, z17.b}, z0.b$/;"	l
+b28	a.asm	/^     b28:	019e9c01 	.inst	0x019e9c01 ; undefined$/;"	l
+b28	a.asm	/^ b28:	01053c30 	.inst	0x01053c30 ; undefined$/;"	l
+b2c	a.asm	/^     b2c:	8f080000 	.inst	0x8f080000 ; undefined$/;"	l
+b2c	a.asm	/^ b2c:	3f1b0559 	.inst	0x3f1b0559 ; undefined$/;"	l
+b30	a.asm	/^     b30:	14000005 	b	b44 <THREAD_HW_CONTEXT_SIZE+0xa24>$/;"	l
+b30	a.asm	/^ b30:	052f1305 	ext	z5.b, z5.b, z24.b, #124$/;"	l
+b34	a.asm	/^     b34:	00000043 	udf	#67$/;"	l
+b34	a.asm	/^ b34:	0e053c09 	umov	w9, v0.b[2]$/;"	l
+b38	a.asm	/^     b38:	0004b608 	.inst	0x0004b608 ; undefined$/;"	l
+b38	a.asm	/^ b38:	20260522 	.inst	0x20260522 ; undefined$/;"	l
+b3c	a.asm	/^     b3c:	00431500 	.inst	0x00431500 ; undefined$/;"	l
+b3c	a.asm	/^ b3c:	052f0105 	ext	z5.b, z5.b, z8.b, #120$/;"	l
+b4	a.asm	/^      b4:	0b000000 	add	w0, w0, w0$/;"	l
+b4	a.asm	/^  b4:	00000000 	udf	#0$/;"	l
+b4	a.asm	/^  b4:	020b0322 	.inst	0x020b0322 ; undefined$/;"	l
+b4	a.asm	/^  b4:	18400712 	ldr	w18, 80194 <trap_core_1_to_el1_from_el2+0x2c>$/;"	l
+b4	a.asm	/^  b4:	69646e65 	ldpsw	x5, x27, [x19, #-224]$/;"	l
+b4	a.asm	/^  b4:	7265746e 	.inst	0x7265746e ; undefined$/;"	l
+b40	a.asm	/^     b40:	4f030000 	.inst	0x4f030000 ; undefined$/;"	l
+b40	a.asm	/^ b40:	13053e1d 	sbfx	w29, w16, #5, #11$/;"	l
+b44	a.asm	/^     b44:	1a000005 	adc	w5, w0, w0$/;"	l
+b44	a.asm	/^ b44:	3c09052f 	str	b15, [x9], #144$/;"	l
+b48	a.asm	/^     b48:	00004309 	udf	#17161$/;"	l
+b48	a.asm	/^ b48:	05220e05 	ext	z5.b, z5.b, z16.b, #19$/;"	l
+b4c	a.asm	/^     b4c:	78910200 	ldursh	x0, [x16, #-240]$/;"	l
+b4c	a.asm	/^ b4c:	01052028 	.inst	0x01052028 ; undefined$/;"	l
+b50	a.asm	/^     b50:	05a30400 	zip2	z0.q, z0.q, z3.q$/;"	l
+b50	a.asm	/^ b50:	0003022f 	.inst	0x0003022f ; undefined$/;"	l
+b54	a.asm	/^     b54:	cc0f0000 	.inst	0xcc0f0000 ; undefined$/;"	l
+b54	a.asm	/^ b54:	005a0101 	.inst	0x005a0101 ; undefined$/;"	l
+b58	a.asm	/^     b58:	00000820 	udf	#2080$/;"	l
+b58	a.asm	/^ b58:	00030000 	.inst	0x00030000 ; undefined$/;"	l
+b5c	a.asm	/^     b5c:	08000000 	stxrb	w0, w0, [x0]$/;"	l
+b5c	a.asm	/^ b5c:	0000002f 	udf	#47$/;"	l
+b60	a.asm	/^     b60:	00000000 	udf	#0$/;"	l
+b60	a.asm	/^ b60:	0efb0104 	.inst	0x0efb0104 ; undefined$/;"	l
+b64	a.asm	/^     b64:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+b64	a.asm	/^ b64:	0101000d 	.inst	0x0101000d ; undefined$/;"	l
+b68	a.asm	/^     b68:	0579049c 	ext	z28.b, {z4.b, z5.b}, #201$/;"	l
+b68	a.asm	/^ b68:	00000101 	udf	#257$/;"	l
+b6c	a.asm	/^     b6c:	c40b0000 	ld1sb	{z0.d}, p0\/z, [x0, z11.d, uxtw]$/;"	l
+b6c	a.asm	/^ b6c:	00000100 	udf	#256$/;"	l
+b70	a.asm	/^     b70:	00000820 	udf	#2080$/;"	l
+b70	a.asm	/^ b70:	692f2e01 	stgp	x1, x11, [x16, #-544]$/;"	l
+b74	a.asm	/^     b74:	08000000 	stxrb	w0, w0, [x0]$/;"	l
+b74	a.asm	/^ b74:	0000636e 	udf	#25454$/;"	l
+b78	a.asm	/^     b78:	00000000 	udf	#0$/;"	l
+b78	a.asm	/^ b78:	72617473 	.inst	0x72617473 ; undefined$/;"	l
+b7c	a.asm	/^     b7c:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+b7c	a.asm	/^ b7c:	00632e74 	.inst	0x00632e74 ; undefined$/;"	l
+b8	a.asm	/^      b8:	38000000 	sturb	w0, [x0]$/;"	l
+b8	a.asm	/^  b8:	000000c0 	udf	#192$/;"	l
+b8	a.asm	/^  b8:	0000197c 	udf	#6524$/;"	l
+b8	a.asm	/^  b8:	080103fd 	stxrb	w1, w29, [sp]$/;"	l
+b8	a.asm	/^  b8:	2d206e61 	stp	s1, s27, [x19, #-256]$/;"	l
+b8	a.asm	/^  b8:	74707572 	.inst	0x74707572 ; undefined$/;"	l
+b80	a.asm	/^     b80:	05f0049c 	.inst	0x05f0049c ; undefined$/;"	l
+b80	a.asm	/^ b80:	74000000 	.inst	0x74000000 ; undefined$/;"	l
+b84	a.asm	/^     b84:	bc070000 	stur	s0, [x0, #112]$/;"	l
+b84	a.asm	/^ b84:	73657079 	.inst	0x73657079 ; undefined$/;"	l
+b88	a.asm	/^     b88:	00000820 	udf	#2080$/;"	l
+b88	a.asm	/^ b88:	0100682e 	.inst	0x0100682e ; undefined$/;"	l
+b8c	a.asm	/^     b8c:	08000000 	stxrb	w0, w0, [x0]$/;"	l
+b8c	a.asm	/^ b8c:	05000000 	orr	z0.s, z0.s, #0x1$/;"	l
+b90	a.asm	/^     b90:	00000000 	udf	#0$/;"	l
+b90	a.asm	/^ b90:	02090012 	.inst	0x02090012 ; undefined$/;"	l
+b94	a.asm	/^     b94:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+b94	a.asm	/^ b94:	000800d0 	.inst	0x000800d0 ; undefined$/;"	l
+b98	a.asm	/^     b98:	009f009c 	.inst	0x009f009c ; undefined$/;"	l
+b98	a.asm	/^ b98:	00000000 	udf	#0$/;"	l
+b9c	a.asm	/^     b9c:	00050000 	.inst	0x00050000 ; undefined$/;"	l
+b9c	a.asm	/^ b9c:	31090515 	adds	w21, w8, #0x241$/;"	l
+ba0	a.asm	/^     ba0:	05ec0801 	.inst	0x05ec0801 ; undefined$/;"	l
+ba0	a.asm	/^ ba0:	0e030505 	dup	v5.8b, v8.b[1]$/;"	l
+ba4	a.asm	/^     ba4:	98030000 	ldrsw	x0, 6ba4 <THREAD_HW_CONTEXT_SIZE+0x6a84>$/;"	l
+ba4	a.asm	/^ ba4:	1805342e 	ldr	w14, b228 <THREAD_HW_CONTEXT_SIZE+0xb108>$/;"	l
+ba8	a.asm	/^     ba8:	1d000001 	.inst	0x1d000001 ; undefined$/;"	l
+ba8	a.asm	/^ ba8:	790c0533 	strh	w19, [x9, #1538]$/;"	l
+bac	a.asm	/^     bac:	0000015a 	udf	#346$/;"	l
+bac	a.asm	/^ bac:	024b0105 	.inst	0x024b0105 ; undefined$/;"	l
+bb0	a.asm	/^     bb0:	00000000 	udf	#0$/;"	l
+bb0	a.asm	/^ bb0:	01010002 	.inst	0x01010002 ; undefined$/;"	l
+bb4	a.asm	/^     bb4:	000821d8 	.inst	0x000821d8 ; undefined$/;"	l
+bb8	a.asm	/^     bb8:	00000000 	udf	#0$/;"	l
+bbc	a.asm	/^     bbc:	00000028 	udf	#40$/;"	l
+bc	a.asm	/^      bc:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+bc	a.asm	/^  bc:	00240100 	.inst	0x00240100 ; NYI$/;"	l
+bc	a.asm	/^  bc:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+bc	a.asm	/^  bc:	6962616d 	ldpsw	x13, x24, [x11, #-240]$/;"	l
+bc	a.asm	/^  bc:	7400632e 	.inst	0x7400632e ; undefined$/;"	l
+bc0	a.asm	/^     bc0:	00000000 	udf	#0$/;"	l
+bc4	a.asm	/^     bc4:	0000084c 	udf	#2124$/;"	l
+bc8	a.asm	/^     bc8:	8a080101 	and	x1, x8, x8$/;"	l
+bcc	a.asm	/^     bcc:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+bd0	a.asm	/^     bd0:	013e0702 	.inst	0x013e0702 ; undefined$/;"	l
+bd4	a.asm	/^     bd4:	04010000 	sub	z0.b, p0\/m, z0.b, z0.b$/;"	l
+bd8	a.asm	/^     bd8:	00016d07 	.inst	0x00016d07 ; undefined$/;"	l
+bdc	a.asm	/^     bdc:	07080100 	.inst	0x07080100 ; undefined$/;"	l
+be0	a.asm	/^     be0:	00000163 	udf	#355$/;"	l
+be4	a.asm	/^     be4:	00062104 	.inst	0x00062104 ; undefined$/;"	l
+be8	a.asm	/^     be8:	06080100 	.inst	0x06080100 ; undefined$/;"	l
+bec	a.asm	/^     bec:	000821ec 	.inst	0x000821ec ; undefined$/;"	l
+bf0	a.asm	/^     bf0:	00000000 	udf	#0$/;"	l
+bf4	a.asm	/^     bf4:	00000014 	udf	#20$/;"	l
+bf8	a.asm	/^     bf8:	00000000 	udf	#0$/;"	l
+bfc	a.asm	/^     bfc:	00779c01 	.inst	0x00779c01 ; undefined$/;"	l
+boot_strap_page_table	boot/crt0.S	/^boot_strap_page_table:$/;"	l
+build	Makefile	/^build: $(ASM_OBJ) $(C_OBJ)$/;"	t
+c	a.asm	/^       c:	00000001 	udf	#1$/;"	l
+c	a.asm	/^   c:	00000000 	udf	#0$/;"	l
+c	a.asm	/^   c:	08000007 	stxrb	w0, w7, [x0]$/;"	l
+c	a.asm	/^   c:	130e250e 	sbfiz	w14, w8, #18, #10$/;"	l
+c	a.asm	/^   c:	2e303120 	usubw	v0.8h, v9.8h, v16.8b$/;"	l
+c	a.asm	/^   c:	656d6f68 	fnmls	z8.h, p3\/m, z27.h, z13.h$/;"	l
+c	a.asm	/^   c:	746b7365 	.inst	0x746b7365 ; undefined$/;"	l
+c	a.asm	/^   c:	fb010104 	.inst	0xfb010104 ; undefined$/;"	l
+c0	a.asm	/^      c0:	00008780 	udf	#34688$/;"	l
+c0	a.asm	/^  c0:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+c0	a.asm	/^  c0:	0b3e0b0b 	add	w11, w24, w30, uxtb #2$/;"	l
+c0	a.asm	/^  c0:	36706c3d 	tbz	w29, #14, e44 <THREAD_HW_CONTEXT_SIZE+0xd24>$/;"	l
+c0	a.asm	/^  c0:	73657079 	.inst	0x73657079 ; undefined$/;"	l
+c00	a.asm	/^     c00:	70020000 	adr	x0, 4c03 <THREAD_HW_CONTEXT_SIZE+0x4ae3>$/;"	l
+c04	a.asm	/^     c04:	08006e66 	stxrb	w0, w6, [x19]$/;"	l
+c08	a.asm	/^     c08:	00007724 	udf	#30500$/;"	l
+c0c	a.asm	/^     c0c:	78910200 	ldursh	x0, [x16, #-240]$/;"	l
+c10	a.asm	/^     c10:	06080500 	.inst	0x06080500 ; undefined$/;"	l
+c14	a.asm	/^     c14:	0000060d 	udf	#1549$/;"	l
+c18	a.asm	/^     c18:	d8060401 	prfm	pldl1strm, cc98 <THREAD_HW_CONTEXT_SIZE+0xcb78>$/;"	l
+c1c	a.asm	/^     c1c:	00000821 	udf	#2081$/;"	l
+c20	a.asm	/^     c20:	14000000 	b	c20 <THREAD_HW_CONTEXT_SIZE+0xb00>$/;"	l
+c24	a.asm	/^     c24:	00000000 	udf	#0$/;"	l
+c28	a.asm	/^     c28:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+c2c	a.asm	/^     c2c:	6670029c 	.inst	0x6670029c ; undefined$/;"	l
+c30	a.asm	/^     c30:	2004006e 	.inst	0x2004006e ; undefined$/;"	l
+c34	a.asm	/^     c34:	00000077 	udf	#119$/;"	l
+c38	a.asm	/^     c38:	00789102 	.inst	0x00789102 ; undefined$/;"	l
+c3c	a.asm	/^     c3c:	0002b000 	.inst	0x0002b000 ; undefined$/;"	l
+c4	a.asm	/^      c4:	01000500 	.inst	0x01000500 ; undefined$/;"	l
+c4	a.asm	/^  c4:	00000e03 	udf	#3587$/;"	l
+c4	a.asm	/^  c4:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+c4	a.asm	/^  c4:	672d2034 	.inst	0x672d2034 ; undefined$/;"	l
+c4	a.asm	/^  c4:	7500682e 	.inst	0x7500682e ; undefined$/;"	l
+c40	a.asm	/^     c40:	01000500 	.inst	0x01000500 ; undefined$/;"	l
+c44	a.asm	/^     c44:	00065808 	.inst	0x00065808 ; undefined$/;"	l
+c48	a.asm	/^     c48:	01980c00 	.inst	0x01980c00 ; undefined$/;"	l
+c4c	a.asm	/^     c4c:	791d0000 	strh	w0, [x0, #3712]$/;"	l
+c50	a.asm	/^     c50:	00000001 	udf	#1$/;"	l
+c54	a.asm	/^     c54:	00000000 	udf	#0$/;"	l
+c58	a.asm	/^     c58:	00000822 	udf	#2082$/;"	l
+c5c	a.asm	/^     c5c:	d4000000 	.inst	0xd4000000 ; undefined$/;"	l
+c60	a.asm	/^     c60:	00000001 	udf	#1$/;"	l
+c64	a.asm	/^     c64:	a8000000 	stnp	x0, x0, [x0]$/;"	l
+c68	a.asm	/^     c68:	03000008 	.inst	0x03000008 ; undefined$/;"	l
+c6c	a.asm	/^     c6c:	04003875 	saddv	d21, p6, z3.b$/;"	l
+c70	a.asm	/^     c70:	00000037 	udf	#55$/;"	l
+c74	a.asm	/^     c74:	8a080102 	and	x2, x8, x8$/;"	l
+c78	a.asm	/^     c78:	03000001 	.inst	0x03000001 ; undefined$/;"	l
+c7c	a.asm	/^     c7c:	00363175 	.inst	0x00363175 ; NYI$/;"	l
+c8	a.asm	/^      c8:	00006008 	udf	#24584$/;"	l
+c8	a.asm	/^  c8:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+c8	a.asm	/^  c8:	25011102 	cmpge	p2.b, p4\/z, z8.b, #1$/;"	l
+c8	a.asm	/^  c8:	304f2d20 	adr	x0, 9e66d <__kernel_end_addr+0x10615>$/;"	l
+c8	a.asm	/^  c8:	696c6974 	ldpsw	x20, x26, [x11, #-160]$/;"	l
+c80	a.asm	/^     c80:	00004805 	udf	#18437$/;"	l
+c84	a.asm	/^     c84:	07020200 	.inst	0x07020200 ; undefined$/;"	l
+c88	a.asm	/^     c88:	0000013e 	udf	#318$/;"	l
+c8c	a.asm	/^     c8c:	32337503 	orr	w3, w8, #0xffffe7ff$/;"	l
+c90	a.asm	/^     c90:	005e0600 	.inst	0x005e0600 ; undefined$/;"	l
+c94	a.asm	/^     c94:	4f040000 	.inst	0x4f040000 ; undefined$/;"	l
+c98	a.asm	/^     c98:	02000000 	.inst	0x02000000 ; undefined$/;"	l
+c9c	a.asm	/^     c9c:	016d0704 	.inst	0x016d0704 ; undefined$/;"	l
+ca0	a.asm	/^     ca0:	08020000 	stxrb	w2, w0, [x0]$/;"	l
+ca4	a.asm	/^     ca4:	00016307 	.inst	0x00016307 ; undefined$/;"	l
+ca8	a.asm	/^     ca8:	06390d00 	.inst	0x06390d00 ; undefined$/;"	l
+cac	a.asm	/^     cac:	0b020000 	add	w0, w0, w2$/;"	l
+cb0	a.asm	/^     cb0:	00005917 	udf	#22807$/;"	l
+cb4	a.asm	/^     cb4:	03b90e00 	.inst	0x03b90e00 ; undefined$/;"	l
+cb8	a.asm	/^     cb8:	04070000 	.inst	0x04070000 ; undefined$/;"	l
+cbc	a.asm	/^     cbc:	0000005e 	udf	#94$/;"	l
+cc	a.asm	/^      cc:	01980200 	.inst	0x01980200 ; undefined$/;"	l
+cc	a.asm	/^  cc:	030b130e 	.inst	0x030b130e ; undefined$/;"	l
+cc	a.asm	/^  cc:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+cc	a.asm	/^  cc:	66662d20 	.inst	0x66662d20 ; undefined$/;"	l
+cc	a.asm	/^  cc:	702f7974 	adr	x20, 5effb <THREAD_HW_CONTEXT_SIZE+0x5eedb>$/;"	l
+cc0	a.asm	/^     cc0:	9d060d03 	.inst	0x9d060d03 ; undefined$/;"	l
+cc4	a.asm	/^     cc4:	05000000 	orr	z0.s, z0.s, #0x1$/;"	l
+cc8	a.asm	/^     cc8:	000003af 	udf	#943$/;"	l
+ccc	a.asm	/^     ccc:	04600500 	sub	z0.h, z8.h, z0.h$/;"	l
+cd0	a.asm	/^     cd0:	05010000 	orr	z0.s, z0.s, #0x1$/;"	l
+cd4	a.asm	/^     cd4:	0000040f 	udf	#1039$/;"	l
+cd8	a.asm	/^     cd8:	c20f0002 	.inst	0xc20f0002 ; undefined$/;"	l
+cdc	a.asm	/^     cdc:	42000006 	.inst	0x42000006 ; undefined$/;"	l
+ce0	a.asm	/^     ce0:	2f101403 	usra	v3.4h, v0.4h, #16$/;"	l
+ce4	a.asm	/^     ce4:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+ce8	a.asm	/^     ce8:	0000063f 	udf	#1599$/;"	l
+cec	a.asm	/^     cec:	00006c15 	udf	#27669$/;"	l
+cf0	a.asm	/^     cf0:	45010000 	.inst	0x45010000 ; undefined$/;"	l
+cf4	a.asm	/^     cf4:	16000006 	b	fffffffff8000d0c <Test+0xffffffffc72ff508>$/;"	l
+cf8	a.asm	/^     cf8:	0000013f 	udf	#319$/;"	l
+cfc	a.asm	/^     cfc:	064e0104 	.inst	0x064e0104 ; undefined$/;"	l
+clean	Makefile	/^clean:$/;"	t
+clock	inc/device.h	/^    reg32 clock;$/;"	m	struct:Spi	typeref:typename:reg32
+comm_core_entry	core/core1.c	/^void comm_core_entry (void) {$/;"	f	typeref:typename:void
+copy	Makefile	/^copy:$/;"	t
+core_0_kernel_stack	boot/crt0.S	/^core_0_kernel_stack:$/;"	l
+core_1_kernel_stack	boot/crt0.S	/^core_1_kernel_stack:$/;"	l
+core_2_kernel_stack	boot/crt0.S	/^core_2_kernel_stack:$/;"	l
+core_3_kernel_stack	boot/crt0.S	/^core_3_kernel_stack:$/;"	l
+core_console_lock	main.c	/^volatile u64 core_console_lock = 0;$/;"	v	typeref:typename:volatile u64
+core_id	start.c	/^        u8 core_id;$/;"	m	struct:entry::InputControlInfo	typeref:typename:u8	file:
+core_one_start	boot/crt0.S	/^core_one_start:$/;"	l
+core_three_start	boot/crt0.S	/^core_three_start:$/;"	l
+core_two_start	boot/crt0.S	/^core_two_start:$/;"	l
+cs	inc/device.h	/^    reg32 cs;$/;"	m	struct:Spi	typeref:typename:reg32
+current_el_sp0_fiq	interrupt/irq.S	/^current_el_sp0_fiq:$/;"	l
+current_el_sp0_serror	interrupt/irq.S	/^current_el_sp0_serror:$/;"	l
+current_el_sp0_sync	interrupt/irq.S	/^current_el_sp0_sync: \/\/system exception$/;"	l
+current_el_sp1_fiq	interrupt/irq.S	/^current_el_sp1_fiq:$/;"	l
+current_el_sp1_irq	interrupt/irq.S	/^current_el_sp1_irq:$/;"	l
+curret_el_sp0_irq	interrupt/irq.S	/^curret_el_sp0_irq:$/;"	l
+curret_el_sp1_serror	interrupt/irq.S	/^curret_el_sp1_serror:$/;"	l
+curret_el_sp1_sync	interrupt/irq.S	/^curret_el_sp1_sync:$/;"	l
+d0	a.asm	/^      d0:	731d0000 	.inst	0x731d0000 ; undefined$/;"	l
+d0	a.asm	/^  d0:	0000003c 	udf	#60$/;"	l
+d0	a.asm	/^  d0:	08e808e8 	.inst	0x08e808e8 ; undefined$/;"	l
+d0	a.asm	/^  d0:	111f1b1f 	add	wsp, w24, #0x7c6$/;"	l
+d0	a.asm	/^  d0:	73656572 	.inst	0x73656572 ; undefined$/;"	l
+d0	a.asm	/^  d0:	746e6972 	.inst	0x746e6972 ; undefined$/;"	l
+d00	a.asm	/^     d00:	6c170000 	stnp	d0, d0, [x0, #368]$/;"	l
+d04	a.asm	/^     d04:	18000000 	ldr	w0, d04 <THREAD_HW_CONTEXT_SIZE+0xbe4>$/;"	l
+d08	a.asm	/^     d08:	0006f101 	.inst	0x0006f101 ; undefined$/;"	l
+d0c	a.asm	/^     d0c:	015b1800 	.inst	0x015b1800 ; undefined$/;"	l
+d10	a.asm	/^     d10:	011c0000 	.inst	0x011c0000 ; undefined$/;"	l
+d14	a.asm	/^     d14:	0000065c 	udf	#1628$/;"	l
+d18	a.asm	/^     d18:	00006c19 	udf	#27673$/;"	l
+d1c	a.asm	/^     d1c:	8d012400 	.inst	0x8d012400 ; undefined$/;"	l
+d20	a.asm	/^     d20:	1a000006 	adc	w6, w0, w0$/;"	l
+d24	a.asm	/^     d24:	0000006c 	udf	#108$/;"	l
+d28	a.asm	/^     d28:	06540128 	.inst	0x06540128 ; undefined$/;"	l
+d2c	a.asm	/^     d2c:	6c1b0000 	stnp	d0, d0, [x0, #432]$/;"	l
+d30	a.asm	/^     d30:	2c000000 	stnp	s0, s0, [x0]$/;"	l
+d34	a.asm	/^     d34:	0006ac01 	.inst	0x0006ac01 ; undefined$/;"	l
+d38	a.asm	/^     d38:	006c1c00 	.inst	0x006c1c00 ; undefined$/;"	l
+d3c	a.asm	/^     d3c:	01300000 	.inst	0x01300000 ; undefined$/;"	l
+d4	a.asm	/^      d4:	00000000 	udf	#0$/;"	l
+d4	a.asm	/^  d4:	009e0002 	.inst	0x009e0002 ; undefined$/;"	l
+d4	a.asm	/^  d4:	10071201 	adr	x1, e314 <THREAD_HW_CONTEXT_SIZE+0xe1f4>$/;"	l
+d4	a.asm	/^  d4:	24e808e8 	cmphs	p8.d, p2\/z, z7.d, #32$/;"	l
+d4	a.asm	/^  d4:	2f00632e 	.inst	0x2f00632e ; undefined$/;"	l
+d4	a.asm	/^  d4:	646e6174 	.inst	0x646e6174 ; undefined$/;"	l
+d40	a.asm	/^     d40:	000006fb 	udf	#1787$/;"	l
+d44	a.asm	/^     d44:	00006c1d 	udf	#27677$/;"	l
+d48	a.asm	/^     d48:	85013400 	.inst	0x85013400 ; undefined$/;"	l
+d4c	a.asm	/^     d4c:	1e000006 	.inst	0x1e000006 ; undefined$/;"	l
+d50	a.asm	/^     d50:	0000006c 	udf	#108$/;"	l
+d54	a.asm	/^     d54:	07050138 	.inst	0x07050138 ; undefined$/;"	l
+d58	a.asm	/^     d58:	3e1f0000 	.inst	0x3e1f0000 ; undefined$/;"	l
+d5c	a.asm	/^     d5c:	3c000000 	stur	b0, [x0]$/;"	l
+d60	a.asm	/^     d60:	0006bb01 	.inst	0x0006bb01 ; undefined$/;"	l
+d64	a.asm	/^     d64:	006c2000 	.inst	0x006c2000 ; undefined$/;"	l
+d68	a.asm	/^     d68:	003e0000 	.inst	0x003e0000 ; NYI$/;"	l
+d6c	a.asm	/^     d6c:	00006c09 	udf	#27657$/;"	l
+d70	a.asm	/^     d70:	00013f00 	.inst	0x00013f00 ; undefined$/;"	l
+d74	a.asm	/^     d74:	01440a00 	.inst	0x01440a00 ; undefined$/;"	l
+d78	a.asm	/^     d78:	00040000 	.inst	0x00040000 ; undefined$/;"	l
+d7c	a.asm	/^     d7c:	00012f04 	.inst	0x00012f04 ; undefined$/;"	l
+d8	a.asm	/^      d8:	c0000000 	mov	za0h.b[w12, 0], p0\/m, z0.b$/;"	l
+d8	a.asm	/^  d8:	00080000 	.inst	0x00080000 ; undefined$/;"	l
+d8	a.asm	/^  d8:	03000017 	.inst	0x03000017 ; undefined$/;"	l
+d8	a.asm	/^  d8:	20676e69 	.inst	0x20676e69 ; undefined$/;"	l
+d8	a.asm	/^  d8:	23212121 	.inst	0x23212121 ; undefined$/;"	l
+d8	a.asm	/^  d8:	2f727375 	fcmla	v21.4h, v27.4h, v18.h[1], #270$/;"	l
+d80	a.asm	/^     d80:	07080200 	.inst	0x07080200 ; undefined$/;"	l
+d84	a.asm	/^     d84:	00000168 	udf	#360$/;"	l
+d88	a.asm	/^     d88:	00006c09 	udf	#27657$/;"	l
+d8c	a.asm	/^     d8c:	00015b00 	.inst	0x00015b00 ; undefined$/;"	l
+d90	a.asm	/^     d90:	01440a00 	.inst	0x01440a00 ; undefined$/;"	l
+d94	a.asm	/^     d94:	00010000 	.inst	0x00010000 ; undefined$/;"	l
+d98	a.asm	/^     d98:	00014b04 	.inst	0x00014b04 ; undefined$/;"	l
+d9c	a.asm	/^     d9c:	01511000 	.inst	0x01511000 ; undefined$/;"	l
+da0	a.asm	/^     da0:	41010000 	.inst	0x41010000 ; undefined$/;"	l
+da4	a.asm	/^     da4:	08237806 	.inst	0x08237806 ; undefined$/;"	l
+da8	a.asm	/^     da8:	00000000 	udf	#0$/;"	l
+dac	a.asm	/^     dac:	00005c00 	udf	#23552$/;"	l
+data	inc/device.h	/^    reg32 data[2];$/;"	m	struct:GpioPinData	typeref:typename:reg32[2]
+data_length	inc/device.h	/^    reg32 data_length;$/;"	m	struct:Spi	typeref:typename:reg32
+db0	a.asm	/^     db0:	00000000 	udf	#0$/;"	l
+db4	a.asm	/^     db4:	ac9c0100 	stp	q0, q0, [x8], #896$/;"	l
+db8	a.asm	/^     db8:	06000001 	.inst	0x06000001 ; undefined$/;"	l
+dbc	a.asm	/^     dbc:	00727473 	.inst	0x00727473 ; undefined$/;"	l
+dc	a.asm	/^      dc:	00000818 	udf	#2072$/;"	l
+dc	a.asm	/^  dc:	00000000 	udf	#0$/;"	l
+dc	a.asm	/^  dc:	00010222 	.inst	0x00010222 ; undefined$/;"	l
+dc	a.asm	/^  dc:	193f012e 	.inst	0x193f012e ; undefined$/;"	l
+dc	a.asm	/^  dc:	2f62696c 	umlsl	v12.4s, v11.4h, v2.h[6]$/;"	l
+dc	a.asm	/^  dc:	7361662d 	.inst	0x7361662d ; undefined$/;"	l
+dc	inc/device.h	/^    reg32 dc;$/;"	m	struct:Spi	typeref:typename:reg32
+dc0	a.asm	/^     dc0:	01ac1f41 	.inst	0x01ac1f41 ; undefined$/;"	l
+dc4	a.asm	/^     dc4:	91020000 	add	x0, x0, #0x80$/;"	l
+dc8	a.asm	/^     dc8:	23841168 	.inst	0x23841168 ; undefined$/;"	l
+dcc	a.asm	/^     dcc:	00000008 	udf	#8$/;"	l
+dd0	a.asm	/^     dd0:	00400000 	.inst	0x00400000 ; undefined$/;"	l
+dd4	a.asm	/^     dd4:	00000000 	udf	#0$/;"	l
+dd8	a.asm	/^     dd8:	69120000 	stgp	x0, x0, [x0, #576]$/;"	l
+ddc	a.asm	/^     ddc:	0e420100 	.inst	0x0e420100 ; undefined$/;"	l
+de0	a.asm	/^     de0:	000001b9 	udf	#441$/;"	l
+de4	a.asm	/^     de4:	007c9102 	.inst	0x007c9102 ; undefined$/;"	l
+de8	a.asm	/^     de8:	b2081300 	orr	x0, x24, #0x1f0000001f000000$/;"	l
+dec	a.asm	/^     dec:	02000001 	.inst	0x02000001 ; undefined$/;"	l
+decimal_to_string	utility/print.c	/^static int decimal_to_string(char *buffer, int position, int64_t digits)$/;"	f	typeref:typename:int	file:
+delay	utility/utility.S	/^delay:$/;"	l
+df0	a.asm	/^     df0:	01930801 	.inst	0x01930801 ; undefined$/;"	l
+df4	a.asm	/^     df4:	04140000 	.inst	0x04140000 ; undefined$/;"	l
+df8	a.asm	/^     df8:	746e6905 	.inst	0x746e6905 ; undefined$/;"	l
+dfc	a.asm	/^     dfc:	06641500 	.inst	0x06641500 ; undefined$/;"	l
+dump	Makefile	/^dump:$/;"	t
+dump_uart	device/device.c	/^static void dump_uart (void) {$/;"	f	typeref:typename:void	file:
+e0	a.asm	/^      e0:	18000000 	ldr	w0, e0 <_cpu_core_1_mailbox_poll_addr>$/;"	l
+e0	a.asm	/^  e0:	000818b8 	.inst	0x000818b8 ; undefined$/;"	l
+e0	a.asm	/^  e0:	007d0101 	.inst	0x007d0101 ; undefined$/;"	l
+e0	a.asm	/^  e0:	0b3a0e03 	add	w3, w16, w26, uxtb #3$/;"	l
+e0	a.asm	/^  e0:	2d636367 	ldp	s7, s24, [x27, #-232]$/;"	l
+e0	a.asm	/^  e0:	68636e79 	.inst	0x68636e79 ; undefined$/;"	l
+e00	a.asm	/^     e00:	3b010000 	.inst	0x3b010000 ; undefined$/;"	l
+e04	a.asm	/^     e04:	00002e04 	udf	#11780$/;"	l
+e08	a.asm	/^     e08:	08234800 	.inst	0x08234800 ; undefined$/;"	l
+e0c	a.asm	/^     e0c:	00000000 	udf	#0$/;"	l
+e10	a.asm	/^     e10:	00003000 	udf	#12288$/;"	l
+e14	a.asm	/^     e14:	00000000 	udf	#0$/;"	l
+e18	a.asm	/^     e18:	079c0100 	.inst	0x079c0100 ; undefined$/;"	l
+e1c	a.asm	/^     e1c:	000006c7 	udf	#1735$/;"	l
+e20	a.asm	/^     e20:	08230835 	.inst	0x08230835 ; undefined$/;"	l
+e24	a.asm	/^     e24:	00000000 	udf	#0$/;"	l
+e28	a.asm	/^     e28:	00004000 	udf	#16384$/;"	l
+e2c	a.asm	/^     e2c:	00000000 	udf	#0$/;"	l
+e30	a.asm	/^     e30:	079c0100 	.inst	0x079c0100 ; undefined$/;"	l
+e34	a.asm	/^     e34:	06000002 	.inst	0x06000002 ; undefined$/;"	l
+e38	a.asm	/^     e38:	19350063 	.inst	0x19350063 ; undefined$/;"	l
+e3c	a.asm	/^     e3c:	0000002e 	udf	#46$/;"	l
+e4	a.asm	/^      e4:	00000000 	udf	#0$/;"	l
+e4	a.asm	/^  e4:	00000000 	udf	#0$/;"	l
+e4	a.asm	/^  e4:	00050000 	.inst	0x00050000 ; undefined$/;"	l
+e4	a.asm	/^  e4:	0b390b3b 	add	w27, w25, w25, uxtb #2$/;"	l
+e4	a.asm	/^  e4:	6f6e6f72 	.inst	0x6f6e6f72 ; undefined$/;"	l
+e4	a.asm	/^  e4:	736f7263 	.inst	0x736f7263 ; undefined$/;"	l
+e40	a.asm	/^     e40:	007f9102 	.inst	0x007f9102 ; undefined$/;"	l
+e44	a.asm	/^     e44:	0006d60b 	.inst	0x0006d60b ; undefined$/;"	l
+e48	a.asm	/^     e48:	23003100 	.inst	0x23003100 ; undefined$/;"	l
+e4c	a.asm	/^     e4c:	00000008 	udf	#8$/;"	l
+e50	a.asm	/^     e50:	00080000 	.inst	0x00080000 ; undefined$/;"	l
+e54	a.asm	/^     e54:	00000000 	udf	#0$/;"	l
+e58	a.asm	/^     e58:	9c010000 	ldr	q0, 2e58 <THREAD_HW_CONTEXT_SIZE+0x2d38>$/;"	l
+e5c	a.asm	/^     e5c:	0002d007 	.inst	0x0002d007 ; undefined$/;"	l
+e60	a.asm	/^     e60:	22c02c00 	.inst	0x22c02c00 ; undefined$/;"	l
+e64	a.asm	/^     e64:	00000008 	udf	#8$/;"	l
+e68	a.asm	/^     e68:	00400000 	.inst	0x00400000 ; undefined$/;"	l
+e6c	a.asm	/^     e6c:	00000000 	udf	#0$/;"	l
+e70	a.asm	/^     e70:	9c010000 	ldr	q0, 2e70 <THREAD_HW_CONTEXT_SIZE+0x2d50>$/;"	l
+e74	a.asm	/^     e74:	00000248 	udf	#584$/;"	l
+e78	a.asm	/^     e78:	2c006306 	stnp	s6, s24, [x24]$/;"	l
+e7c	a.asm	/^     e7c:	00002e16 	udf	#11798$/;"	l
+e8	a.asm	/^      e8:	73000000 	.inst	0x73000000 ; undefined$/;"	l
+e8	a.asm	/^  e8:	00000008 	udf	#8$/;"	l
+e8	a.asm	/^  e8:	002e0008 	.inst	0x002e0008 ; NYI$/;"	l
+e8	a.asm	/^  e8:	193c1927 	.inst	0x193c1927 ; undefined$/;"	l
+e8	a.asm	/^  e8:	61612f73 	.inst	0x61612f73 ; undefined$/;"	l
+e8	a.asm	/^  e8:	752d7375 	.inst	0x752d7375 ; undefined$/;"	l
+e80	a.asm	/^     e80:	7f910200 	.inst	0x7f910200 ; undefined$/;"	l
+e84	a.asm	/^     e84:	04210700 	sub	z0.b, z24.b, z1.b$/;"	l
+e88	a.asm	/^     e88:	08080000 	stxrb	w8, w0, [x0]$/;"	l
+e8c	a.asm	/^     e8c:	00000822 	udf	#2082$/;"	l
+e90	a.asm	/^     e90:	b8000000 	stur	w0, [x0]$/;"	l
+e94	a.asm	/^     e94:	00000000 	udf	#0$/;"	l
+e98	a.asm	/^     e98:	01000000 	.inst	0x01000000 ; undefined$/;"	l
+e9c	a.asm	/^     e9c:	00029b9c 	.inst	0x00029b9c ; undefined$/;"	l
+ea0	a.asm	/^     ea0:	06b21600 	.inst	0x06b21600 ; undefined$/;"	l
+ea4	a.asm	/^     ea4:	08010000 	stxrb	w1, w0, [x0]$/;"	l
+ea8	a.asm	/^     ea8:	0000781f 	udf	#30751$/;"	l
+eac	a.asm	/^     eac:	6c910200 	stp	d0, d0, [x16], #272$/;"	l
+eb0	a.asm	/^     eb0:	00067308 	.inst	0x00067308 ; undefined$/;"	l
+eb4	a.asm	/^     eb4:	006c0900 	.inst	0x006c0900 ; undefined$/;"	l
+eb8	a.asm	/^     eb8:	91020000 	add	x0, x0, #0x80$/;"	l
+ebc	a.asm	/^     ebc:	06e7087c 	.inst	0x06e7087c ; undefined$/;"	l
+ec	a.asm	/^      ec:	01000002 	.inst	0x01000002 ; undefined$/;"	l
+ec	a.asm	/^  ec:	00000000 	udf	#0$/;"	l
+ec	a.asm	/^  ec:	00001301 	udf	#4865$/;"	l
+ec	a.asm	/^  ec:	01040000 	.inst	0x01040000 ; undefined$/;"	l
+ec	a.asm	/^  ec:	36686372 	tbz	w18, #13, d58 <THREAD_HW_CONTEXT_SIZE+0xc38>$/;"	l
+ec	a.asm	/^  ec:	6e69776e 	uabd	v14.8h, v27.8h, v9.8h$/;"	l
+ec0	a.asm	/^     ec0:	6c0a0000 	stnp	d0, d0, [x0, #160]$/;"	l
+ec4	a.asm	/^     ec4:	02000000 	.inst	0x02000000 ; undefined$/;"	l
+ec8	a.asm	/^     ec8:	7d087891 	str	h17, [x4, #1084]$/;"	l
+ecc	a.asm	/^     ecc:	0b000006 	add	w6, w0, w0$/;"	l
+ed0	a.asm	/^     ed0:	0000006c 	udf	#108$/;"	l
+ed4	a.asm	/^     ed4:	00749102 	.inst	0x00749102 ; undefined$/;"	l
+ed8	a.asm	/^     ed8:	0006950b 	.inst	0x0006950b ; undefined$/;"	l
+edc	a.asm	/^     edc:	22000400 	.inst	0x22000400 ; undefined$/;"	l
+ee0	a.asm	/^     ee0:	00000008 	udf	#8$/;"	l
+ee4	a.asm	/^     ee4:	00080000 	.inst	0x00080000 ; undefined$/;"	l
+ee8	a.asm	/^     ee8:	00000000 	udf	#0$/;"	l
+eec	a.asm	/^     eec:	9c010000 	ldr	q0, 2eec <THREAD_HW_CONTEXT_SIZE+0x2dcc>$/;"	l
+ef0	a.asm	/^     ef0:	0001f100 	.inst	0x0001f100 ; undefined$/;"	l
+ef4	a.asm	/^     ef4:	01000500 	.inst	0x01000500 ; undefined$/;"	l
+ef8	a.asm	/^     ef8:	0007c408 	.inst	0x0007c408 ; undefined$/;"	l
+efc	a.asm	/^     efc:	01980800 	.inst	0x01980800 ; undefined$/;"	l
+elr	inc/interrupt.h	/^    u64 elr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+entry	start.c	/^int entry (void) {$/;"	f	typeref:typename:int
+esr	inc/interrupt.h	/^    u64 esr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+f0	a.asm	/^      f0:	018a0801 	.inst	0x018a0801 ; undefined$/;"	l
+f0	a.asm	/^  f0:	000800b8 	.inst	0x000800b8 ; undefined$/;"	l
+f0	a.asm	/^  f0:	0d0efb01 	.inst	0x0d0efb01 ; undefined$/;"	l
+f0	a.asm	/^  f0:	49000504 	.inst	0x49000504 ; undefined$/;"	l
+f0	a.asm	/^  f0:	61742d64 	.inst	0x61742d64 ; undefined$/;"	l
+f0	a.asm	/^  f0:	696c2d34 	ldpsw	x20, x11, [x9, #-160]$/;"	l
+f00	a.asm	/^     f00:	8e1d0000 	.inst	0x8e1d0000 ; undefined$/;"	l
+f04	a.asm	/^     f04:	00000001 	udf	#1$/;"	l
+f08	a.asm	/^     f08:	d4000000 	.inst	0xd4000000 ; undefined$/;"	l
+f0c	a.asm	/^     f0c:	00000823 	udf	#2083$/;"	l
+f10	a.asm	/^     f10:	20000000 	.inst	0x20000000 ; undefined$/;"	l
+f14	a.asm	/^     f14:	00000001 	udf	#1$/;"	l
+f18	a.asm	/^     f18:	ef000000 	.inst	0xef000000 ; undefined$/;"	l
+f1c	a.asm	/^     f1c:	02000009 	.inst	0x02000009 ; undefined$/;"	l
+f20	a.asm	/^     f20:	018a0801 	.inst	0x018a0801 ; undefined$/;"	l
+f24	a.asm	/^     f24:	75040000 	.inst	0x75040000 ; undefined$/;"	l
+f28	a.asm	/^     f28:	05003631 	orr	z17.b, z17.b, #0xc$/;"	l
+f2c	a.asm	/^     f2c:	0000003f 	udf	#63$/;"	l
+f30	a.asm	/^     f30:	3e070202 	.inst	0x3e070202 ; undefined$/;"	l
+f34	a.asm	/^     f34:	04000001 	add	z1.b, p0\/m, z1.b, z0.b$/;"	l
+f38	a.asm	/^     f38:	00323375 	.inst	0x00323375 ; NYI$/;"	l
+f3c	a.asm	/^     f3c:	00005506 	udf	#21766$/;"	l
+f4	a.asm	/^      f4:	02010000 	.inst	0x02010000 ; undefined$/;"	l
+f4	a.asm	/^  f4:	00000000 	udf	#0$/;"	l
+f4	a.asm	/^  f4:	01010100 	.inst	0x01010100 ; undefined$/;"	l
+f4	a.asm	/^  f4:	05000013 	orr	z19.s, z19.s, #0x1$/;"	l
+f4	a.asm	/^  f4:	2d78756e 	ldp	s14, s29, [x11, #-64]$/;"	l
+f4	a.asm	/^  f4:	73656c62 	.inst	0x73656c62 ; undefined$/;"	l
+f40	a.asm	/^     f40:	00460500 	.inst	0x00460500 ; undefined$/;"	l
+f44	a.asm	/^     f44:	04020000 	.inst	0x04020000 ; undefined$/;"	l
+f48	a.asm	/^     f48:	00016d07 	.inst	0x00016d07 ; undefined$/;"	l
+f4c	a.asm	/^     f4c:	36750400 	tbz	w0, #14, ffffffffffffafcc <Test+0xffffffffcf2f97c8>$/;"	l
+f50	a.asm	/^     f50:	66070034 	.inst	0x66070034 ; undefined$/;"	l
+f54	a.asm	/^     f54:	02000000 	.inst	0x02000000 ; undefined$/;"	l
+f58	a.asm	/^     f58:	01630708 	.inst	0x01630708 ; undefined$/;"	l
+f5c	a.asm	/^     f5c:	39090000 	strb	w0, [x0, #576]$/;"	l
+f60	a.asm	/^     f60:	02000006 	.inst	0x02000006 ; undefined$/;"	l
+f64	a.asm	/^     f64:	0050170b 	.inst	0x0050170b ; undefined$/;"	l
+f68	a.asm	/^     f68:	240a0000 	cmphs	p0.b, p0\/z, z0.b, z10.b$/;"	l
+f6c	a.asm	/^     f6c:	07000007 	.inst	0x07000007 ; undefined$/;"	l
+f70	a.asm	/^     f70:	00005504 	udf	#21764$/;"	l
+f74	a.asm	/^     f74:	06060300 	.inst	0x06060300 ; undefined$/;"	l
+f78	a.asm	/^     f78:	000000a4 	udf	#164$/;"	l
+f7c	a.asm	/^     f7c:	00071b03 	.inst	0x00071b03 ; undefined$/;"	l
+f8	a.asm	/^      f8:	00013e07 	.inst	0x00013e07 ; undefined$/;"	l
+f8	a.asm	/^  f8:	00000001 	udf	#1$/;"	l
+f8	a.asm	/^  f8:	00000018 	udf	#24$/;"	l
+f8	a.asm	/^  f8:	0b0b000f 	add	w15, w0, w11$/;"	l
+f8	a.asm	/^  f8:	2f756e67 	.inst	0x2f756e67 ; undefined$/;"	l
+f8	a.asm	/^  f8:	62656400 	.inst	0x62656400 ; undefined$/;"	l
+f80	a.asm	/^     f80:	55030000 	.inst	0x55030000 ; undefined$/;"	l
+f84	a.asm	/^     f84:	01000007 	.inst	0x01000007 ; undefined$/;"	l
+f88	a.asm	/^     f88:	00074c03 	.inst	0x00074c03 ; undefined$/;"	l
+f8c	a.asm	/^     f8c:	0f030200 	.inst	0x0f030200 ; undefined$/;"	l
+f90	a.asm	/^     f90:	03000007 	.inst	0x03000007 ; undefined$/;"	l
+f94	a.asm	/^     f94:	06c20b00 	.inst	0x06c20b00 ; undefined$/;"	l
+f98	a.asm	/^     f98:	03420000 	.inst	0x03420000 ; undefined$/;"	l
+f9c	a.asm	/^     f9c:	01361014 	.inst	0x01361014 ; undefined$/;"	l
+fa0	a.asm	/^     fa0:	3f010000 	.inst	0x3f010000 ; undefined$/;"	l
+fa4	a.asm	/^     fa4:	15000006 	b	4000fbc <__kernel_end_addr+0x3f72f64>$/;"	l
+fa8	a.asm	/^     fa8:	0000006d 	udf	#109$/;"	l
+fac	a.asm	/^     fac:	06450100 	.inst	0x06450100 ; undefined$/;"	l
+fb0	a.asm	/^     fb0:	46160000 	.inst	0x46160000 ; undefined$/;"	l
+fb4	a.asm	/^     fb4:	04000001 	add	z1.b, p0\/m, z1.b, z0.b$/;"	l
+fb8	a.asm	/^     fb8:	00064e01 	.inst	0x00064e01 ; undefined$/;"	l
+fbc	a.asm	/^     fbc:	006d1700 	.inst	0x006d1700 ; undefined$/;"	l
+fc	a.asm	/^      fc:	07040100 	.inst	0x07040100 ; undefined$/;"	l
+fc	a.asm	/^  fc:	00001349 	udf	#4937$/;"	l
+fc	a.asm	/^  fc:	01000001 	.inst	0x01000001 ; undefined$/;"	l
+fc	a.asm	/^  fc:	642f6775 	.inst	0x642f6775 ; undefined$/;"	l
+fc	a.asm	/^  fc:	692f3131 	stgp	x17, x12, [x9, #-544]$/;"	l
+fc0	a.asm	/^     fc0:	01180000 	.inst	0x01180000 ; undefined$/;"	l
+fc4	a.asm	/^     fc4:	000006f1 	udf	#1777$/;"	l
+fc8	a.asm	/^     fc8:	00016218 	.inst	0x00016218 ; undefined$/;"	l
+fcc	a.asm	/^     fcc:	5c011c00 	ldr	d0, 334c <THREAD_HW_CONTEXT_SIZE+0x322c>$/;"	l
+fd0	a.asm	/^     fd0:	19000006 	stlurb	w6, [x0]$/;"	l
+fd4	a.asm	/^     fd4:	0000006d 	udf	#109$/;"	l
+fd8	a.asm	/^     fd8:	068d0124 	.inst	0x068d0124 ; undefined$/;"	l
+fdc	a.asm	/^     fdc:	6d1a0000 	stp	d0, d0, [x0, #416]$/;"	l
+fe0	a.asm	/^     fe0:	28000000 	stnp	w0, w0, [x0]$/;"	l
+fe4	a.asm	/^     fe4:	00065401 	.inst	0x00065401 ; undefined$/;"	l
+fe8	a.asm	/^     fe8:	006d1b00 	.inst	0x006d1b00 ; undefined$/;"	l
+fec	a.asm	/^     fec:	012c0000 	.inst	0x012c0000 ; undefined$/;"	l
+fetch_stack_1	boot/crt0.S	/^fetch_stack_1:$/;"	l
+fetch_stack_2	boot/crt0.S	/^fetch_stack_2:$/;"	l
+fetch_stack_3	boot/crt0.S	/^fetch_stack_3:$/;"	l
+ff0	a.asm	/^     ff0:	000006ac 	udf	#1708$/;"	l
+ff4	a.asm	/^     ff4:	00006d1c 	udf	#27932$/;"	l
+ff8	a.asm	/^     ff8:	fb013000 	.inst	0xfb013000 ; undefined$/;"	l
+ffc	a.asm	/^     ffc:	1d000006 	.inst	0x1d000006 ; undefined$/;"	l
+fifo	inc/device.h	/^    reg32 fifo;$/;"	m	struct:Spi	typeref:typename:reg32
+find_next_free_page	mm/mm_allocator.c	/^void find_next_free_page(void* pfn) {$/;"	f	typeref:typename:void
+find_next_free_page_bfs	mm/mm_allocator.c	/^void find_next_free_page_bfs(void* pfn) {$/;"	f	typeref:typename:void
+func_core_aux_entry	core/core3.c	/^void func_core_aux_entry (void) {$/;"	f	typeref:typename:void
+func_core_entry	core/core2.c	/^void func_core_entry (void) {$/;"	f	typeref:typename:void
+generic_handler	interrupt/irq.S	/^generic_handler:$/;"	l
+get_core_stack	boot/crt0.S	/^get_core_stack:$/;"	l
+gp_async_fedge_detect	inc/device.h	/^    struct GpioPinData gp_async_fedge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_async_redge_detect	inc/device.h	/^    struct GpioPinData gp_async_redge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_event_detect	inc/device.h	/^    struct GpioPinData gp_event_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_fedge_detect	inc/device.h	/^    struct GpioPinData gp_fedge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_fselect	inc/device.h	/^    reg32 gp_fselect[6];$/;"	m	struct:Gpio	typeref:typename:reg32[6]
+gp_high_detect	inc/device.h	/^    struct GpioPinData gp_high_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_low_detect	inc/device.h	/^    struct GpioPinData gp_low_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_output_clear	inc/device.h	/^    struct GpioPinData gp_output_clear;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_output_set	inc/device.h	/^    struct GpioPinData gp_output_set;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_pin_level	inc/device.h	/^    struct GpioPinData gp_pin_level;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gp_redge_detect	inc/device.h	/^    struct GpioPinData gp_redge_detect;$/;"	m	struct:Gpio	typeref:struct:GpioPinData
+gpio_clear	device/gpio.c	/^void gpio_clear (u8 pinNum) {$/;"	f	typeref:typename:void
+gpio_pin_enable	device/gpio.c	/^void gpio_pin_enable(u8 pinNum) {$/;"	f	typeref:typename:void
+gpio_pin_func_select	device/gpio.c	/^void gpio_pin_func_select (u8 pinNum, GpioAltFunc pinFunc) {$/;"	f	typeref:typename:void
+gpio_set	device/gpio.c	/^void gpio_set (u8 pinNum) {$/;"	f	typeref:typename:void
+halt_core	boot/crt0.S	/^halt_core:$/;"	l
+heap_alloc_count	inc/mm.h	/^    u64 heap_alloc_count;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_size	inc/mm.h	/^    u64 heap_size;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+heap_size_in_bytes	inc/mm.h	/^    u64 heap_size_in_bytes;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_start	inc/mm.h	/^    u64 heap_start;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+heap_start_phy_addr	inc/mm.h	/^    u64 heap_start_phy_addr;$/;"	m	struct:HeapSegment	typeref:typename:u64
+heap_start_va_addr	inc/mm.h	/^    u64 heap_start_va_addr;$/;"	m	struct:HeapSegment	typeref:typename:u64
+hex_to_string	utility/print.c	/^static int hex_to_string(char *buffer, int position, uint64_t digits)$/;"	f	typeref:typename:int	file:
+i2c_Desc	inc/device.h	/^} __attribute__((packed)) i2c_Desc;$/;"	t	typeref:typename:i2c{ } 
+i2c_init	device/i2c.c	/^void i2c_init (void) {$/;"	f	typeref:typename:void
+i2c_recv	device/i2c.c	/^void i2c_recv (u64 addr) {$/;"	f	typeref:typename:void
+i2c_send	device/i2c.c	/^void i2c_send (u64 addr, u64 data) {$/;"	f	typeref:typename:void
+in_word	utility/utility.S	/^in_word:$/;"	l
+interrupt_init	interrupt/irq.S	/^interrupt_init:$/;"	l
+irq_disable_basic	inc/interrupt.h	/^    u32 irq_disable_basic;$/;"	m	struct:IntrController	typeref:typename:u32
+irq_disable_reg1	inc/interrupt.h	/^    u32 irq_disable_reg1; \/\/irq 0 - 31$/;"	m	struct:IntrController	typeref:typename:u32
+irq_disable_reg2	inc/interrupt.h	/^    u32 irq_disable_reg2; \/\/irq 32 - 63$/;"	m	struct:IntrController	typeref:typename:u32
+irq_enable_basic	inc/interrupt.h	/^    u32 irq_enable_basic;$/;"	m	struct:IntrController	typeref:typename:u32
+irq_enable_reg1	inc/interrupt.h	/^    u32 irq_enable_reg1;$/;"	m	struct:IntrController	typeref:typename:u32
+irq_enable_reg2	inc/interrupt.h	/^    u32 irq_enable_reg2;$/;"	m	struct:IntrController	typeref:typename:u32
+irq_pending	inc/interrupt.h	/^    u32 irq_pending;$/;"	m	struct:IntrController	typeref:typename:u32
+isr_dispatcher	interrupt/interrupt.c	/^void isr_dispatcher (u64 id, u64 esr, u64 elr) {$/;"	f	typeref:typename:void
+ivt_table_start_addr	interrupt/irq.S	/^ivt_table_start_addr:$/;"	l
+jump_to_el1_core_one	core/smt.S	/^jump_to_el1_core_one:$/;"	l
+kerne_size	inc/mm.h	/^    u64 kerne_size;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+kernel_end	inc/mm.h	/^    u64 kernel_end;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+kernel_start	inc/mm.h	/^    u64 kernel_start;$/;"	m	struct:MemoryMetaData	typeref:typename:u64
+kfree	mm/mm.c	/^void kfree() {$/;"	f	typeref:typename:void
+kmalloc	mm/mm.c	/^void kmalloc() {$/;"	f	typeref:typename:void
+l1	utility/utility.S	/^l1:	wfe$/;"	l
+l2	utility/utility.S	/^l2:	ldaxr	w1, [x0]$/;"	l
+lower_el_aarch32_fiq	interrupt/irq.S	/^lower_el_aarch32_fiq:$/;"	l
+lower_el_aarch32_irq	interrupt/irq.S	/^lower_el_aarch32_irq:$/;"	l
+lower_el_aarch32_serror	interrupt/irq.S	/^lower_el_aarch32_serror:$/;"	l
+lower_el_aarch32_sync	interrupt/irq.S	/^lower_el_aarch32_sync:$/;"	l
+lower_el_aarch64_fiq	interrupt/irq.S	/^lower_el_aarch64_fiq:$/;"	l
+lower_el_aarch64_irq	interrupt/irq.S	/^lower_el_aarch64_irq:$/;"	l
+lower_el_aarch64_serror	interrupt/irq.S	/^lower_el_aarch64_serror:$/;"	l
+lower_el_aarch64_sync	interrupt/irq.S	/^lower_el_aarch64_sync:$/;"	l
+ltoh	inc/device.h	/^    reg32 ltoh;$/;"	m	struct:Spi	typeref:typename:reg32
+main	main.c	/^int main (int argc, void* argv) {$/;"	f	typeref:typename:int
+mem_init	inc/mm.h	/^    void (*mem_init) (void);$/;"	m	struct:MemoryMetaData	typeref:typename:void (*)(void)
+memclr	utility/utility.S	/^memclr:$/;"	l
+memcpy	utility/utility.S	/^memcpy:$/;"	l
+memset	utility/utility.S	/^memset:$/;"	l
+mm_init	mm/mm.c	/^void mm_init() {$/;"	f	typeref:typename:void
+nullptr	inc/types.h	/^#define nullptr /;"	d
+out_word	utility/utility.S	/^out_word:$/;"	l
+physical_segment_init	mm/mm.c	/^void physical_segment_init(MemoryMetaData_t* pInfo) {$/;"	f	typeref:typename:void
+printk	utility/print.c	/^int printk(const char *format, ...)$/;"	f	typeref:typename:int
+pupd_enable	inc/device.h	/^    reg32 pupd_enable;$/;"	m	struct:Gpio	typeref:typename:reg32
+pupd_enable_clocks	inc/device.h	/^    reg32 pupd_enable_clocks[2];$/;"	m	struct:Gpio	typeref:typename:reg32[2]
+qemu	Makefile	/^qemu:$/;"	t
+read_string	utility/print.c	/^static int read_string(char *buffer, int position, const char *string)$/;"	f	typeref:typename:int	file:
+reg32	inc/types.h	/^typedef volatile u32  reg32;$/;"	t	typeref:typename:volatile u32
+reg64	inc/types.h	/^typedef volatile u64  reg64;$/;"	t	typeref:typename:volatile u64
+register_dump	device/device.c	/^void register_dump (enum DeviceType type) {$/;"	f	typeref:typename:void
+reserved	inc/device.h	/^    reg32 reserved;$/;"	m	struct:Gpio	typeref:typename:reg32
+reserved	inc/device.h	/^    reg32 reserved;$/;"	m	struct:GpioPinData	typeref:typename:reg32
+reserved	inc/device.h	/^    reg32 reserved[5];$/;"	m	struct:Uart	typeref:typename:reg32[5]
+reserved	inc/interrupt.h	/^    u32 reserved[3];$/;"	m	struct:IntrController	typeref:typename:u32[3]
+reserved1	inc/device.h	/^    reg32 reserved1[2];  $/;"	m	struct:Uart	typeref:typename:reg32[2]
+reserved2	inc/device.h	/^    reg32 reserved2;$/;"	m	struct:Uart	typeref:typename:reg32
+reserved3	inc/device.h	/^    u16   reserved3;$/;"	m	struct:Uart	typeref:typename:u16
+set_up_boot_strap_page_table	mm/mm.c	/^void set_up_boot_strap_page_table() {$/;"	f	typeref:typename:void
+set_up_mm_cb	mm/mm_util.S	/^set_up_mm_cb:$/;"	l
+sp0	inc/interrupt.h	/^    u64 sp0;$/;"	m	struct:TrapFrame	typeref:typename:u64
+spi_init	device/spi.c	/^void spi_init (void) {$/;"	f	typeref:typename:void
+spsr	inc/interrupt.h	/^    u64 spsr;$/;"	m	struct:TrapFrame	typeref:typename:u64
+stack_access_self_test	selfTest/selftTest.c	/^void stack_access_self_test (u8 core_id) {$/;"	f	typeref:typename:void
+stack_info	start.c	/^        u64 stack_info;$/;"	m	struct:entry::InputControlInfo	typeref:typename:u64	file:
+sync_handler	interrupt/irq.S	/^sync_handler:$/;"	l
+test_spin	boot/crt0.S	/^test_spin:$/;"	l
+trap_core_1_to_el1	core/smt.S	/^trap_core_1_to_el1:$/;"	l
+trap_core_1_to_el1_from_el2	core/smt.S	/^trap_core_1_to_el1_from_el2:$/;"	l
+trap_core_2_to_el1	core/smt.S	/^trap_core_2_to_el1:$/;"	l
+trap_core_3_to_el1	core/smt.S	/^trap_core_3_to_el1:$/;"	l
+trap_enter	interrupt/irq.S	/^.macro trap_enter $/;"	m
+trap_no	inc/interrupt.h	/^    u64 trap_no;$/;"	m	struct:TrapFrame	typeref:typename:u64
+trap_to_el1_from_el2	boot/crt0.S	/^trap_to_el1_from_el2:$/;"	l
+u0_cr	inc/device.h	/^    reg32 u0_cr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_dr	inc/device.h	/^    reg32 u0_dr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_fbrd	inc/device.h	/^    reg32 u0_fbrd;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_fr	inc/device.h	/^    reg32 u0_fr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_ibrd	inc/device.h	/^    reg32 u0_ibrd;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_icr	inc/device.h	/^    reg32 u0_icr;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_imsc	inc/device.h	/^    reg32 u0_imsc;$/;"	m	struct:Uart	typeref:typename:reg32
+u0_lcrh	inc/device.h	/^    reg32 u0_lcrh;$/;"	m	struct:Uart	typeref:typename:reg32
+u16	inc/types.h	/^typedef unsigned short     u16;$/;"	t	typeref:typename:unsigned short
+u32	inc/types.h	/^typedef unsigned int       u32;$/;"	t	typeref:typename:unsigned int
+u64	inc/types.h	/^typedef unsigned long long u64;$/;"	t	typeref:typename:unsigned long long
+u8	inc/types.h	/^typedef unsigned char      u8;$/;"	t	typeref:typename:unsigned char
+uart_init	device/uart.c	/^void uart_init (enum UartMode uartMode) {$/;"	f	typeref:typename:void
+uart_irq_handler	device/uart.c	/^void uart_irq_handler (void) {$/;"	f	typeref:typename:void
+uart_read_data	device/uart.c	/^u8 uart_read_data () {$/;"	f	typeref:typename:u8
+uart_register_map_dump	device/uart.c	/^void uart_register_map_dump (void) {$/;"	f	typeref:typename:void
+uart_send_c	device/uart.c	/^void uart_send_c (u8 c) {$/;"	f	typeref:typename:void
+uart_send_data	device/uart.c	/^void uart_send_data (u8 c) {$/;"	f	typeref:typename:void
+uart_write_string	device/uart.c	/^void uart_write_string (char* str) {$/;"	f	typeref:typename:void
+udecimal_to_string	utility/print.c	/^static int udecimal_to_string(char *buffer, int position, uint64_t digits)$/;"	f	typeref:typename:int	file:
+user_core_entry	core/core0.c	/^void user_core_entry() {$/;"	f	typeref:typename:void
+vm_enabled	start.c	/^        u8 vm_enabled;$/;"	m	struct:entry::InputControlInfo	typeref:typename:u8	file:
+write_console	utility/print.c	/^void write_console(const char *buffer, int size)$/;"	f	typeref:typename:void
+x0	inc/interrupt.h	/^    u64 x0;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x1	inc/interrupt.h	/^    u64 x1;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x10	inc/interrupt.h	/^    u64 x10;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x11	inc/interrupt.h	/^    u64 x11;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x12	inc/interrupt.h	/^    u64 x12;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x13	inc/interrupt.h	/^    u64 x13;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x14	inc/interrupt.h	/^    u64 x14;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x15	inc/interrupt.h	/^    u64 x15;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x16	inc/interrupt.h	/^    u64 x16;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x17	inc/interrupt.h	/^    u64 x17;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x18	inc/interrupt.h	/^    u64 x18;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x19	inc/interrupt.h	/^    u64 x19;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x2	inc/interrupt.h	/^    u64 x2;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x20	inc/interrupt.h	/^    u64 x20;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x21	inc/interrupt.h	/^    u64 x21;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x22	inc/interrupt.h	/^    u64 x22;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x23	inc/interrupt.h	/^    u64 x23;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x24	inc/interrupt.h	/^    u64 x24;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x25	inc/interrupt.h	/^    u64 x25;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x26	inc/interrupt.h	/^    u64 x26;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x27	inc/interrupt.h	/^    u64 x27;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x28	inc/interrupt.h	/^    u64 x28;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x29	inc/interrupt.h	/^    u64 x29;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x3	inc/interrupt.h	/^    u64 x3;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x30	inc/interrupt.h	/^    u64 x30;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x4	inc/interrupt.h	/^    u64 x4;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x5	inc/interrupt.h	/^    u64 x5;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x6	inc/interrupt.h	/^    u64 x6;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x7	inc/interrupt.h	/^    u64 x7;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x8	inc/interrupt.h	/^    u64 x8;$/;"	m	struct:TrapFrame	typeref:typename:u64
+x9	inc/interrupt.h	/^    u64 x9;$/;"	m	struct:TrapFrame	typeref:typename:u64
